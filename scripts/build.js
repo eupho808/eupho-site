@@ -36,7 +36,7 @@ cleanDir(dist);
 
 for (const entry of fs.readdirSync(root, { withFileTypes: true })) {
   const name = entry.name;
-  if (['dist', 'node_modules', 'netlify', 'scripts', '.git'].includes(name)) continue;
+  if (['dist', 'node_modules', 'netlify', 'scripts', '.git', 'api'].includes(name)) continue;
   const src = path.join(root, name);
   const d = path.join(dist, name);
   if (entry.isDirectory()) copyDir(src, d);

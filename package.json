@@ -4,11 +4,11 @@
   "description": "eupho producer store — beats, kits, games, visuals",
   "scripts": {
     "build": "node scripts/build.js",
-    "dev": "netlify dev",
-    "deploy": "netlify deploy --prod"
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
   },
   "devDependencies": {
-    "netlify-cli": "^17.0.0"
+    "vercel": "^37.0.0"
   },
   "dependencies": {
     "cloudinary": "^2.10.0"
