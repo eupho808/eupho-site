@@ -140,7 +140,7 @@ function selectBeat(id) {
   }
 
   currentBeat = beat;
-  currentAudio = new Audio(beat.preview);
+  currentAudio = new Audio(beat.audio || beat.preview);
 
   playerTitle.textContent = beat.title;
   playerMeta.textContent = (beat.bpm || '?') + ' BPM · ' + (beat.key || '?') + ' · ' + (beat.tags || []).join(', ');
