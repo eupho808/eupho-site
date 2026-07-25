@@ -5,7 +5,7 @@
     { name: 's', avatar: 'assets/s.png', whisper: 'one letter, many voices.' },
     { name: 'regret', avatar: 'assets/regret.jpg', whisper: 'regret is just memory with teeth.' },
     { name: 'Lononone', avatar: 'assets/Lononone.jpg', whisper: 'loneliness spelled backwards is almost a name.' },
-    { name: 'D 2', avatar: 'assets/D%202.jpg', whisper: 'D2 knows the second ending.' },
+    { name: 'D 2', avatar: 'assets/D 2.jpg', whisper: 'D2 knows the second ending.' },
     { name: 'f0geLsk1', avatar: 'assets/f0geLsk1.jpg', whisper: 'fog eats the signal.' },
     { name: 'fml', avatar: 'assets/fml.jpg', whisper: 'same.' },
     { name: 'Mizusuki', avatar: 'assets/Mizusuki.jpg', whisper: 'water remembers every face.' },
