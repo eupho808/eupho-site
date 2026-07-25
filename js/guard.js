@@ -1,5 +1,2 @@
-(() => {
-  if (sessionStorage.getItem('fs_gate_passed') !== '1') {
-    window.location.replace('gate.html');
-  }
-})();
+// Gate is disabled for public launch.
+// The original client-side gate offered no real protection and could be bypassed via DevTools.

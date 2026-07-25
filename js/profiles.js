@@ -30,13 +30,7 @@ async function loadStats() {
 }
 
 function login() {
-  const password = document.getElementById('auth-pass').value.trim();
-  if (password !== VENDOR_PASSWORD) return showAuth('invalid key', 'error');
-
-  currentUser = { id: 'u-eupho', name: 'eupho', status: '', wall: [] };
-  localStorage.setItem(AUTH_KEY, JSON.stringify(currentUser));
-  showProfile();
-  showAuth('terminal unlocked', 'success');
+  showAuth('producer panel is disabled in public build', 'error');
 }
 
 function logout() {

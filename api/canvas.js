@@ -15,12 +15,7 @@ module.exports = (req, res) => {
   }
 
   if (req.method === 'POST') {
-    try {
-      fs.writeFileSync(file, JSON.stringify(req.body, null, 2));
-      return res.status(200).json({ success: true });
-    } catch {
-      return res.status(400).json({ error: 'Invalid canvas data' });
-    }
+    return res.status(503).json({ error: 'Canvas write disabled' });
   }
 
   res.status(405).json({ error: 'Method not allowed' });

@@ -1,7 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
   loadBalance();
   initCategoryFilter();
+  loadSidebarCounts();
 });
+
+async function loadSidebarCounts() {
+  try {
+    const [beats, kits] = await Promise.all([
+      fetch(window.API_BASE + '/beats').then(r => r.json()),
+      fetch(window.API_BASE + '/kits').then(r => r.json())
+    ]);
+    const beatsEl = document.getElementById('count-beats');
+    const kitsEl = document.getElementById('count-kits');
+    if (beatsEl) beatsEl.textContent = '(' + beats.length + ')';
+    if (kitsEl) kitsEl.textContent = '(' + kits.length + ')';
+  } catch (e) { console.error(e); }
+}
 
 function loadBalance() {
   const els = document.querySelectorAll('#balance');

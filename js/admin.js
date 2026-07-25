@@ -33,14 +33,10 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function tryLogin() {
-  if (passInput.value === ADMIN_PASSWORD) {
-    sessionStorage.setItem('fs_admin', '1');
-    showPanel();
-  } else {
-    loginError.classList.remove('admin-hidden');
-    passInput.value = '';
-    setTimeout(() => loginError.classList.add('admin-hidden'), 3000);
-  }
+  loginError.textContent = 'Admin panel is disabled in public build.';
+  loginError.classList.remove('admin-hidden');
+  passInput.value = '';
+  setTimeout(() => loginError.classList.add('admin-hidden'), 3000);
 }
 
 function showPanel() {

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Visual works by Eupho.">
-  <title>EUPHO — VISUALS</title>
+  <title>eupho — Visuals</title>
   <link rel="stylesheet" href="css/main.css">
   <style>
     .visuals-intro {
@@ -96,65 +96,150 @@
 <body>
   <canvas id="ambient-canvas"></canvas>
 
-  <nav class="nav">
-    <a href="index.html" class="nav-logo">eu<span>pho</span></a>
-    <ul class="nav-links">
-      <li><a href="index.html">HOME</a></li>
-      <li><a href="beats.html">BEATS</a></li>
-      <li><a href="kits.html">KITS</a></li>
-      <li><a href="game.html">GAME</a></li>
-      <li><a href="visuals.html">VISUALS</a></li>
-      <li><a href="watchers.html">WATCHERS</a></li>
-      <li><a href="profiles.html">PRODUCER</a></li>
-    </ul>
-  </nav>
-
-  <main class="container">
-    <h1 class="page-title glitch" data-text="VISUALS">VISUALS</h1>
-    <p class="page-subtitle">fragments of digital dreams</p>
-
-    <p class="visuals-intro">
-      a selection of ai-driven videos, digital art, and motion experiments.<br><br>
-      follow on <a href="https://www.youtube.com/@16eupho/videos" target="_blank" rel="noopener">youtube</a> and
-      <a href="https://www.instagram.com/eupho_____/" target="_blank" rel="noopener">instagram</a> for more.
-    </p>
-
-    <div class="visuals-grid">
-      <div class="visual-card">
-        <img src="assets/models/alice/AliceW_Skin_DM.png" alt="Alice skin texture">
-        <div class="visual-overlay">
-          <h3 class="visual-title">WONDERLAND FRAGMENT</h3>
-          <a class="visual-link" href="assets/models/alice/Alice.DAE" target="_blank" rel="noopener">download model →</a>
-        </div>
-      </div>
-
-      <div class="visual-card">
-        <img src="assets/models/queen/queen_of_hearts_diff.png" alt="Queen texture">
-        <div class="visual-overlay">
-          <h3 class="visual-title">LOST MEMORY</h3>
-          <a class="visual-link" href="https://www.instagram.com/eupho_____/" target="_blank" rel="noopener">view →</a>
-        </div>
-      </div>
-
-      <div class="visual-card">
-        <img src="assets/models/cheshire_cat/texture003.png" alt="Cheshire texture">
-        <div class="visual-overlay">
-          <h3 class="visual-title">DIGITAL NIGHTMARE</h3>
-          <a class="visual-link" href="https://www.youtube.com/@16eupho/videos" target="_blank" rel="noopener">watch →</a>
-        </div>
-      </div>
+  <div class="top-bar">
+    <span>Welcome, Guest. Last login: <span class="corrupt">never_again</span>.</span>
+    <div>
+      <a href="index.html" data-i18n="home">Home</a>
+      <a href="beats.html" data-i18n="beats">Beats</a>
+      <a href="game.html" data-i18n="game">Game</a>
+      <a href="#" id="lang-toggle">RU</a>
     </div>
-  </main>
+  </div>
+
+  <header class="header">
+    <div class="logo"><img class="logo-img" src="assets/1211b41172150adc0cf2b3ee449d9eaf.jpg" alt="eupho"></div>
+    <div class="brand">
+      <a href="index.html" class="brand-name glitch-text" data-text="eupho">eupho</a>
+      <div class="brand-tagline" data-i18n="tagline">producer store · beats · kits · games · visuals</div>
+    </div>
+  </header>
+
+  <div class="main-layout">
+    <aside class="sidebar">
+      <h3 data-i18n="catalog">Catalog</h3>
+      <ul>
+        <li><a href="index.html" data-i18n="home">Home</a></li>
+        <li><a href="beats.html" data-i18n="beats">Beats</a></li>
+        <li><a href="kits.html" data-i18n="drumKits">Drum Kits</a></li>
+        <li><a href="game.html" data-i18n="game">Game</a></li>
+        <li><a href="visuals.html" class="active" data-i18n="visuals">Visuals</a></li>
+        <li><a href="watchers.html" data-i18n="watchers">Watchers</a></li>
+      </ul>
+      <div class="notice urgent" data-i18n="visualsNotice">
+        Visual works by eupho. Follow on YouTube and Instagram for more.
+      </div>
+    </aside>
+
+    <main class="content">
+      <div class="status-bar">
+        <span class="live" data-i18n="marketOnline">● Store online</span>
+        <span data-i18n="instantDelivery">instant digital delivery</span>
+      </div>
+
+      <nav class="breadcrumb">
+        <a href="index.html" data-i18n="home">Home</a> &gt; <span data-i18n="visuals">Visuals</span>
+      </nav>
+
+      <div class="section-header">
+        <span class="section-title" data-i18n="visuals">Visuals</span>
+      </div>
+
+      <p class="visuals-intro" data-i18n="visualsIntro">
+        a selection of ai-driven videos, digital art, and motion experiments.<br><br>
+        follow on <a href="https://www.youtube.com/@16eupho/videos" target="_blank" rel="noopener">youtube</a> and
+        <a href="https://www.instagram.com/eupho_____/" target="_blank" rel="noopener">instagram</a> for more.
+      </p>
+
+      <div class="visuals-grid">
+        <div class="visual-card">
+          <img src="assets/models/alice/AliceW_Skin_DM.png" alt="Alice skin texture">
+          <div class="visual-overlay">
+            <h3 class="visual-title">WONDERLAND FRAGMENT</h3>
+            <a class="visual-link" href="assets/models/alice/Alice.DAE" target="_blank" rel="noopener">download model →</a>
+          </div>
+        </div>
+
+        <div class="visual-card">
+          <img src="assets/models/queen/queen_of_hearts_diff.png" alt="Queen texture">
+          <div class="visual-overlay">
+            <h3 class="visual-title">LOST MEMORY</h3>
+            <a class="visual-link" href="https://www.instagram.com/eupho_____/" target="_blank" rel="noopener">view →</a>
+          </div>
+        </div>
+
+        <div class="visual-card">
+          <img src="assets/models/cheshire_cat/texture003.png" alt="Cheshire texture">
+          <div class="visual-overlay">
+            <h3 class="visual-title">DIGITAL NIGHTMARE</h3>
+            <a class="visual-link" href="https://www.youtube.com/@16eupho/videos" target="_blank" rel="noopener">watch →</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
 
   <footer class="footer">
-    <div class="social-links">
-      <a href="https://www.youtube.com/@16eupho/videos" target="_blank" rel="noopener">YOUTUBE</a>
-      <a href="https://t.me/euphotg" target="_blank" rel="noopener">TELEGRAM</a>
-      <a href="https://www.instagram.com/eupho_____/" target="_blank" rel="noopener">INSTAGRAM</a>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="beats.html">Beats</a>
+      <a href="kits.html">Kits</a>
+      <a href="game.html">Game</a>
+      <a href="visuals.html">Visuals</a>
+      <a href="watchers.html">Watchers</a>
+      <a href="profiles.html">Producer</a>
+      <a href="about.html">About</a>
+      <a href="https://t.me/euphotg" target="_blank" rel="noopener">Telegram</a>
     </div>
-    <p>© 2026 EUPHO // all rights reserved // made in wonderland</p>
+    <p>© 2011-2026 eupho // visuals by eupho only</p>
   </footer>
 
+  <script src="js/i18n.js"></script>
+  <script src="js/guard.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/looking-glass.js"></script>
+  <script src="js/whispers.js"></script>
+</body>
+</html>
+        </div>
+
+        <div class="visual-card">
+          <img src="assets/models/queen/queen_of_hearts_diff.png" alt="Queen texture">
+          <div class="visual-overlay">
+            <h3 class="visual-title">LOST MEMORY</h3>
+            <a class="visual-link" href="https://www.instagram.com/eupho_____/" target="_blank" rel="noopener">view →</a>
+          </div>
+        </div>
+
+        <div class="visual-card">
+          <img src="assets/models/cheshire_cat/texture003.png" alt="Cheshire texture">
+          <div class="visual-overlay">
+            <h3 class="visual-title">DIGITAL NIGHTMARE</h3>
+            <a class="visual-link" href="https://www.youtube.com/@16eupho/videos" target="_blank" rel="noopener">watch →</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="beats.html">Beats</a>
+      <a href="kits.html">Kits</a>
+      <a href="game.html">Game</a>
+      <a href="visuals.html">Visuals</a>
+      <a href="watchers.html">Watchers</a>
+      <a href="profiles.html">Producer</a>
+      <a href="about.html">About</a>
+      <a href="https://t.me/euphotg" target="_blank" rel="noopener">Telegram</a>
+    </div>
+    <p>© 2011-2026 eupho // visuals by eupho only</p>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/guard.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/looking-glass.js"></script>
+  <script src="js/whispers.js"></script>
 </body>
 </html>
