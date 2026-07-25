@@ -1,4 +1,5 @@
-const ADMIN_PASSWORD = 'teeth2026';
+// Admin panel is disabled in public build.
+const ADMIN_PASSWORD = null;
 
 let beatsCatalog = [];
 let kitsCatalog = [];

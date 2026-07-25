@@ -353,38 +353,6 @@
   },
   {
     "id": "beat-012",
-    "title": "9mice zhizn posle Viperr, konflikty, stil, obvineniya byvshikh devushek. pervoe ",
-    "bpm": 140,
-    "key": "",
-    "tags": [],
-    "cover": "assets/1211b41172150adc0cf2b3ee449d9eaf.jpg",
-    "audio": "uploads/9mice zhizn posle Viperr, konflikty, stil, obvineniya byvshikh devushek. pervoe .mp3",
-    "duration": 0,
-    "licenses": {
-      "mp3": {
-        "label": "MP3 Lease",
-        "price": "$8"
-      },
-      "wav": {
-        "label": "MP3 + WAV Lease",
-        "price": "$13"
-      },
-      "stems": {
-        "label": "Trackout Stems",
-        "price": "$16"
-      },
-      "unlimited": {
-        "label": "Unlimited Lease",
-        "price": "$29"
-      },
-      "exclusive": {
-        "label": "Exclusive",
-        "price": "$44+"
-      }
-    }
-  },
-  {
-    "id": "beat-013",
     "title": "adrenaline rush 190 f#maj +001wyh",
     "bpm": 190,
     "key": "",
@@ -416,7 +384,7 @@
     }
   },
   {
-    "id": "beat-014",
+    "id": "beat-013",
     "title": "afiget' noviy tag 159",
     "bpm": 159,
     "key": "",
@@ -448,7 +416,7 @@
     }
   },
   {
-    "id": "beat-015",
+    "id": "beat-014",
     "title": "afiget'_mojno_158____eupho",
     "bpm": 158,
     "key": "",
@@ -480,7 +448,7 @@
     }
   },
   {
-    "id": "beat-016",
+    "id": "beat-015",
     "title": "alisa v axue 140 c min +izbegayte eupho",
     "bpm": 140,
     "key": "",
@@ -512,7 +480,7 @@
     }
   },
   {
-    "id": "beat-017",
+    "id": "beat-016",
     "title": "anikv 166",
     "bpm": 166,
     "key": "",
@@ -544,7 +512,7 @@
     }
   },
   {
-    "id": "beat-018",
+    "id": "beat-017",
     "title": "bez 5 minut - ken carson 153",
     "bpm": 153,
     "key": "",
@@ -576,7 +544,7 @@
     }
   },
   {
-    "id": "beat-019",
+    "id": "beat-018",
     "title": "birds 155 e min",
     "bpm": 155,
     "key": "",
@@ -608,7 +576,7 @@
     }
   },
   {
-    "id": "beat-020",
+    "id": "beat-019",
     "title": "blister_draminy_149_+_imjustrockin_____eupho",
     "bpm": 149,
     "key": "",
@@ -640,7 +608,7 @@
     }
   },
   {
-    "id": "beat-021",
+    "id": "beat-020",
     "title": "blueyou rainbaw 152 eupho",
     "bpm": 152,
     "key": "",
@@ -672,7 +640,7 @@
     }
   },
   {
-    "id": "beat-022",
+    "id": "beat-021",
     "title": "blya v venu ne popal 126",
     "bpm": 126,
     "key": "",
@@ -704,7 +672,7 @@
     }
   },
   {
-    "id": "beat-023",
+    "id": "beat-022",
     "title": "blya ya by ubival -matt proxy 140 EEEEEEEupho",
     "bpm": 140,
     "key": "",
@@ -736,7 +704,7 @@
     }
   },
   {
-    "id": "beat-024",
+    "id": "beat-023",
     "title": "breathing SFX130-----@eupho",
     "bpm": 130,
     "key": "",
@@ -768,7 +736,7 @@
     }
   },
   {
-    "id": "beat-025",
+    "id": "beat-024",
     "title": "bro 123 c min",
     "bpm": 123,
     "key": "",
@@ -800,7 +768,7 @@
     }
   },
   {
-    "id": "beat-026",
+    "id": "beat-025",
     "title": "bro on realno vskrylsya 133 d maj eupho",
     "bpm": 133,
     "key": "",
@@ -832,7 +800,7 @@
     }
   },
   {
-    "id": "beat-027",
+    "id": "beat-026",
     "title": "cats 110 c#maj",
     "bpm": 110,
     "key": "",
@@ -864,7 +832,7 @@
     }
   },
   {
-    "id": "beat-028",
+    "id": "beat-027",
     "title": "charli xcx bolshe ne brat... 141",
     "bpm": 141,
     "key": "",
@@ -896,7 +864,7 @@
     }
   },
   {
-    "id": "beat-029",
+    "id": "beat-028",
     "title": "charli xcx i eupho na studii v paris'e 134 d min",
     "bpm": 134,
     "key": "",
@@ -928,7 +896,7 @@
     }
   },
   {
-    "id": "beat-030",
+    "id": "beat-029",
     "title": "che by mne ebalo razbil 154 a min eupho",
     "bpm": 154,
     "key": "",
@@ -960,7 +928,7 @@
     }
   },
   {
-    "id": "beat-031",
+    "id": "beat-030",
     "title": "chestno propalo jelanie delat' bity, pohodu opyat pol goda zastoya 140 eupho",
     "bpm": 140,
     "key": "",
@@ -992,7 +960,7 @@
     }
   },
   {
-    "id": "beat-032",
+    "id": "beat-031",
     "title": "chob rostelecom zdohli nahui 155",
     "bpm": 155,
     "key": "",
@@ -1024,7 +992,7 @@
     }
   },
   {
-    "id": "beat-033",
+    "id": "beat-032",
     "title": "cl6udly ya sluchaino 138 +speenzy",
     "bpm": 138,
     "key": "",
@@ -1056,7 +1024,7 @@
     }
   },
   {
-    "id": "beat-034",
+    "id": "beat-033",
     "title": "codeinovye slezy 150",
     "bpm": 150,
     "key": "",
@@ -1088,7 +1056,7 @@
     }
   },
   {
-    "id": "beat-035",
+    "id": "beat-034",
     "title": "dayz9090terr+lukarajhl____eupho_85",
     "bpm": 909,
     "key": "",
@@ -1120,7 +1088,7 @@
     }
   },
   {
-    "id": "beat-036",
+    "id": "beat-035",
     "title": "defecit narkotikov 172 eupho + woodsay",
     "bpm": 172,
     "key": "",
@@ -1152,7 +1120,7 @@
     }
   },
   {
-    "id": "beat-037",
+    "id": "beat-036",
     "title": "delal bez nayshnikov sorry 142 eupho 40 cents",
     "bpm": 142,
     "key": "",
@@ -1184,7 +1152,7 @@
     }
   },
   {
-    "id": "beat-038",
+    "id": "beat-037",
     "title": "detektiv v shoke 116 +parad1se",
     "bpm": 116,
     "key": "",
@@ -1216,7 +1184,7 @@
     }
   },
   {
-    "id": "beat-039",
+    "id": "beat-038",
     "title": "dostal___uje__real__119_a_m_+_parad1se____euph_o",
     "bpm": 119,
     "key": "",
@@ -1248,7 +1216,7 @@
     }
   },
   {
-    "id": "beat-040",
+    "id": "beat-039",
     "title": "DOVOD",
     "bpm": 140,
     "key": "",
@@ -1280,7 +1248,7 @@
     }
   },
   {
-    "id": "beat-041",
+    "id": "beat-040",
     "title": "DTP_+_167_e +vallorry",
     "bpm": 167,
     "key": "",
@@ -1312,7 +1280,7 @@
     }
   },
   {
-    "id": "beat-042",
+    "id": "beat-041",
     "title": "ear 144 + valtoory, kenzee",
     "bpm": 144,
     "key": "",
@@ -1344,7 +1312,7 @@
     }
   },
   {
-    "id": "beat-043",
+    "id": "beat-042",
     "title": "ebanye vertolety(( 115",
     "bpm": 115,
     "key": "",
@@ -1376,7 +1344,7 @@
     }
   },
   {
-    "id": "beat-044",
+    "id": "beat-043",
     "title": "EBAT!!! govno... 116 c min eupho +woodsay",
     "bpm": 116,
     "key": "",
@@ -1408,7 +1376,7 @@
     }
   },
   {
-    "id": "beat-045",
+    "id": "beat-044",
     "title": "em peroxide 116 f min 450hz +awwolong",
     "bpm": 116,
     "key": "",
@@ -1440,7 +1408,7 @@
     }
   },
   {
-    "id": "beat-046",
+    "id": "beat-045",
     "title": "energetiki ya lubly 165 +vilefate, vallorry",
     "bpm": 165,
     "key": "",
@@ -1472,7 +1440,7 @@
     }
   },
   {
-    "id": "beat-047",
+    "id": "beat-046",
     "title": "esdee cam 140",
     "bpm": 140,
     "key": "",
@@ -1504,7 +1472,7 @@
     }
   },
   {
-    "id": "beat-048",
+    "id": "beat-047",
     "title": "esli rai to tol'ko takoi 149",
     "bpm": 149,
     "key": "",
@@ -1536,7 +1504,7 @@
     }
   },
   {
-    "id": "beat-049",
+    "id": "beat-048",
     "title": "eupho + zephyx otorvali tromb 180",
     "bpm": 180,
     "key": "",
@@ -1568,7 +1536,7 @@
     }
   },
   {
-    "id": "beat-050",
+    "id": "beat-049",
     "title": "eyes + nitric acid 145 +99, yardy",
     "bpm": 145,
     "key": "",
@@ -1600,7 +1568,7 @@
     }
   },
   {
-    "id": "beat-051",
+    "id": "beat-050",
     "title": "farmaceft otdal bez recepta 144 eupho",
     "bpm": 144,
     "key": "",
@@ -1632,7 +1600,7 @@
     }
   },
   {
-    "id": "beat-052",
+    "id": "beat-051",
     "title": "flexeupho_155____eupho__400cents",
     "bpm": 155,
     "key": "",
@@ -1664,7 +1632,7 @@
     }
   },
   {
-    "id": "beat-053",
+    "id": "beat-052",
     "title": "full free beat 140",
     "bpm": 140,
     "key": "",
@@ -1696,7 +1664,7 @@
     }
   },
   {
-    "id": "beat-054",
+    "id": "beat-053",
     "title": "gnfdlkgnfldkgnfldkngklfd 135",
     "bpm": 135,
     "key": "",
@@ -1728,7 +1696,7 @@
     }
   },
   {
-    "id": "beat-055",
+    "id": "beat-054",
     "title": "green 149",
     "bpm": 149,
     "key": "",
@@ -1760,7 +1728,7 @@
     }
   },
   {
-    "id": "beat-056",
+    "id": "beat-055",
     "title": "green lipton + 7000mkg 163 +jeremy",
     "bpm": 700,
     "key": "",
@@ -1792,7 +1760,7 @@
     }
   },
   {
-    "id": "beat-057",
+    "id": "beat-056",
     "title": "greshariki 149 a#min eupho + vf0000",
     "bpm": 149,
     "key": "",
@@ -1824,7 +1792,7 @@
     }
   },
   {
-    "id": "beat-058",
+    "id": "beat-057",
     "title": "grob s jaydes'om ne otkrily((( 103 c maj 40 cents eupho",
     "bpm": 103,
     "key": "",
@@ -1856,7 +1824,7 @@
     }
   },
   {
-    "id": "beat-059",
+    "id": "beat-058",
     "title": "guccio_giovanbattista_121_+_fakemink_______eupho",
     "bpm": 121,
     "key": "",
@@ -1888,7 +1856,7 @@
     }
   },
   {
-    "id": "beat-060",
+    "id": "beat-059",
     "title": "hannah montana popala v avariy 124",
     "bpm": 124,
     "key": "",
@@ -1920,7 +1888,7 @@
     }
   },
   {
-    "id": "beat-061",
+    "id": "beat-060",
     "title": "hotel pokorit' mir no leg v rehab 120 +kenzee",
     "bpm": 120,
     "key": "",
@@ -1952,7 +1920,7 @@
     }
   },
   {
-    "id": "beat-062",
+    "id": "beat-061",
     "title": "hqd doroje roditelei 123 eupho",
     "bpm": 123,
     "key": "",
@@ -1984,7 +1952,7 @@
     }
   },
   {
-    "id": "beat-063",
+    "id": "beat-062",
     "title": "hqd nancy FRESH STRAWBERRY 6000 144 EuphOOO (ViglyadishStranno...)",
     "bpm": 600,
     "key": "",
@@ -2016,7 +1984,7 @@
     }
   },
   {
-    "id": "beat-064",
+    "id": "beat-063",
     "title": "hqd s psilocibinovym grybom 148 c min eupho loop",
     "bpm": 148,
     "key": "",
@@ -2048,7 +2016,7 @@
     }
   },
   {
-    "id": "beat-065",
+    "id": "beat-064",
     "title": "hqd so vkusom gnili 110 eupho",
     "bpm": 110,
     "key": "",
@@ -2080,7 +2048,7 @@
     }
   },
   {
-    "id": "beat-066",
+    "id": "beat-065",
     "title": "hqdkid 11 views Oct 4, 2025 162 +zestymain",
     "bpm": 11,
     "key": "",
@@ -2112,7 +2080,7 @@
     }
   },
   {
-    "id": "beat-067",
+    "id": "beat-066",
     "title": "huevo nemnogo 132",
     "bpm": 132,
     "key": "",
@@ -2144,7 +2112,7 @@
     }
   },
   {
-    "id": "beat-068",
+    "id": "beat-067",
     "title": "i am zdoh 120 +lukarajhl",
     "bpm": 120,
     "key": "",
@@ -2176,7 +2144,7 @@
     }
   },
   {
-    "id": "beat-069",
+    "id": "beat-068",
     "title": "I LOVE danBASS 1_5_2_bpm by eupho",
     "bpm": 140,
     "key": "",
@@ -2208,7 +2176,7 @@
     }
   },
   {
-    "id": "beat-070",
+    "id": "beat-069",
     "title": "icegergert dolbaeb 124",
     "bpm": 124,
     "key": "",
@@ -2240,7 +2208,7 @@
     }
   },
   {
-    "id": "beat-071",
+    "id": "beat-070",
     "title": "igla + sok limona s cherbyami 154 eupho 40 cents",
     "bpm": 154,
     "key": "",
@@ -2272,7 +2240,7 @@
     }
   },
   {
-    "id": "beat-072",
+    "id": "beat-071",
     "title": "ikea 156 c#maj",
     "bpm": 156,
     "key": "",
@@ -2304,7 +2272,7 @@
     }
   },
   {
-    "id": "beat-073",
+    "id": "beat-072",
     "title": "ilovethis 160 +vilefate",
     "bpm": 160,
     "key": "",
@@ -2336,7 +2304,7 @@
     }
   },
   {
-    "id": "beat-074",
+    "id": "beat-073",
     "title": "imposter govno-producera 183",
     "bpm": 183,
     "key": "",
@@ -2368,7 +2336,7 @@
     }
   },
   {
-    "id": "beat-075",
+    "id": "beat-074",
     "title": "Irina Otieva - The Last Poem 119 eupho",
     "bpm": 119,
     "key": "",
@@ -2400,7 +2368,7 @@
     }
   },
   {
-    "id": "beat-076",
+    "id": "beat-075",
     "title": "izbil sebya poka leshal v vannoi 140",
     "bpm": 140,
     "key": "",
@@ -2432,7 +2400,7 @@
     }
   },
   {
-    "id": "beat-077",
+    "id": "beat-076",
     "title": "iznachal'no sample byl iz krika 7 144",
     "bpm": 144,
     "key": "",
@@ -2464,7 +2432,7 @@
     }
   },
   {
-    "id": "beat-078",
+    "id": "beat-077",
     "title": "japan 140",
     "bpm": 140,
     "key": "",
@@ -2496,7 +2464,7 @@
     }
   },
   {
-    "id": "beat-079",
+    "id": "beat-078",
     "title": "kajduy 3 devushku v mire ne nasilyut 140",
     "bpm": 140,
     "key": "",
@@ -2528,7 +2496,7 @@
     }
   },
   {
-    "id": "beat-080",
+    "id": "beat-079",
     "title": "kajetsyavseploh''' 142",
     "bpm": 142,
     "key": "",
@@ -2560,7 +2528,7 @@
     }
   },
   {
-    "id": "beat-081",
+    "id": "beat-080",
     "title": "kak budto gimn chempionata mira kak u ishowspeed 136 d maj 40 cents eupho",
     "bpm": 136,
     "key": "",
@@ -2592,7 +2560,7 @@
     }
   },
   {
-    "id": "beat-082",
+    "id": "beat-081",
     "title": "kakje v glazah ryabilo kogda ya beat delal, pizdec 156",
     "bpm": 156,
     "key": "",
@@ -2624,7 +2592,7 @@
     }
   },
   {
-    "id": "beat-083",
+    "id": "beat-082",
     "title": "kanye castles 126 c#maj",
     "bpm": 126,
     "key": "",
@@ -2656,7 +2624,7 @@
     }
   },
   {
-    "id": "beat-084",
+    "id": "beat-083",
     "title": "kanye izbil bully 131iqeupho",
     "bpm": 131,
     "key": "",
@@ -2688,7 +2656,7 @@
     }
   },
   {
-    "id": "beat-085",
+    "id": "beat-084",
     "title": "kanye west umer, ostalsya ya( 134",
     "bpm": 134,
     "key": "",
@@ -2720,7 +2688,7 @@
     }
   },
   {
-    "id": "beat-086",
+    "id": "beat-085",
     "title": "katy perry pod metadonom 147 eu____pho",
     "bpm": 147,
     "key": "",
@@ -2752,7 +2720,7 @@
     }
   },
   {
-    "id": "beat-087",
+    "id": "beat-086",
     "title": "ken carsona poimaly s trupom, v mashine igralo eto +nyvice",
     "bpm": 140,
     "key": "",
@@ -2784,7 +2752,7 @@
     }
   },
   {
-    "id": "beat-088",
+    "id": "beat-087",
     "title": "kinul gnilye pomidory v face 166 +vallorry",
     "bpm": 166,
     "key": "",
@@ -2816,7 +2784,7 @@
     }
   },
   {
-    "id": "beat-089",
+    "id": "beat-088",
     "title": "kogda gitler sral zvuchalo luchshe 123 g maj +popcontrol i k sojaleniy eupho",
     "bpm": 123,
     "key": "",
@@ -2848,7 +2816,7 @@
     }
   },
   {
-    "id": "beat-090",
+    "id": "beat-089",
     "title": "kogda vas budet bolshe ya otkrou svou privatku, no obmanu vas na 120k 140 (4o ce",
     "bpm": 120,
     "key": "",
@@ -2880,7 +2848,7 @@
     }
   },
   {
-    "id": "beat-091",
+    "id": "beat-090",
     "title": "koleni prostrelil ;) 125 +gyrik",
     "bpm": 125,
     "key": "",
@@ -2912,7 +2880,7 @@
     }
   },
   {
-    "id": "beat-092",
+    "id": "beat-091",
     "title": "kot v meshke 186",
     "bpm": 186,
     "key": "",
@@ -2944,7 +2912,7 @@
     }
   },
   {
-    "id": "beat-093",
+    "id": "beat-092",
     "title": "krov' iz yshei 144 +vallorry",
     "bpm": 144,
     "key": "",
@@ -2976,7 +2944,7 @@
     }
   },
   {
-    "id": "beat-094",
+    "id": "beat-093",
     "title": "krytoi type, budu delat' chache esli ne nadoest 141",
     "bpm": 141,
     "key": "",
@@ -3008,7 +2976,7 @@
     }
   },
   {
-    "id": "beat-095",
+    "id": "beat-094",
     "title": "l3m0nvgl4z4_665756745__150__+__foes______eupho",
     "bpm": 665,
     "key": "",
@@ -3040,7 +3008,7 @@
     }
   },
   {
-    "id": "beat-096",
+    "id": "beat-095",
     "title": "lizer by mne ebalo razbil 146 euphoeuphoeupho",
     "bpm": 146,
     "key": "",
@@ -3072,7 +3040,7 @@
     }
   },
   {
-    "id": "beat-097",
+    "id": "beat-096",
     "title": "looking for alaska 145 +parad1se",
     "bpm": 145,
     "key": "",
@@ -3104,7 +3072,7 @@
     }
   },
   {
-    "id": "beat-098",
+    "id": "beat-097",
     "title": "looksmaxing eupho core 128",
     "bpm": 128,
     "key": "",
@@ -3136,7 +3104,7 @@
     }
   },
   {
-    "id": "beat-099",
+    "id": "beat-098",
     "title": "loop______corecorecorecore______152__eupho",
     "bpm": 152,
     "key": "",
@@ -3168,7 +3136,7 @@
     }
   },
   {
-    "id": "beat-100",
+    "id": "beat-099",
     "title": "lopnuli_barabannye_pereponki_2hollis'a_120____eupho",
     "bpm": 120,
     "key": "",
@@ -3200,7 +3168,7 @@
     }
   },
   {
-    "id": "beat-101",
+    "id": "beat-100",
     "title": "loser 162 +vilefate",
     "bpm": 162,
     "key": "",
@@ -3232,7 +3200,7 @@
     }
   },
   {
-    "id": "beat-102",
+    "id": "beat-101",
     "title": "lytshaya podruga umerla pod etoty pesny 122 c#maj eupho",
     "bpm": 122,
     "key": "",
@@ -3264,7 +3232,7 @@
     }
   },
   {
-    "id": "beat-103",
+    "id": "beat-102",
     "title": "matt proxy ahuel s ally' i bad guy 120 a#maj eupho",
     "bpm": 120,
     "key": "",
@@ -3296,7 +3264,7 @@
     }
   },
   {
-    "id": "beat-104",
+    "id": "beat-103",
     "title": "mcdonalds 156",
     "bpm": 156,
     "key": "",
@@ -3328,7 +3296,7 @@
     }
   },
   {
-    "id": "beat-105",
+    "id": "beat-104",
     "title": "mdma + seeyuh 140",
     "bpm": 140,
     "key": "",
@@ -3360,7 +3328,7 @@
     }
   },
   {
-    "id": "beat-106",
+    "id": "beat-105",
     "title": "melody5 91",
     "bpm": 91,
     "key": "",
@@ -3392,7 +3360,7 @@
     }
   },
   {
-    "id": "beat-107",
+    "id": "beat-106",
     "title": "mgk poimali s draminoi 160 eupho",
     "bpm": 160,
     "key": "",
@@ -3424,7 +3392,7 @@
     }
   },
   {
-    "id": "beat-108",
+    "id": "beat-107",
     "title": "mne skoro 18 152 c min",
     "bpm": 18,
     "key": "",
@@ -3456,7 +3424,7 @@
     }
   },
   {
-    "id": "beat-109",
+    "id": "beat-108",
     "title": "moe korolevstvo poslalo menya nahui 134 -2t 40 cents c min eupho",
     "bpm": 134,
     "key": "",
@@ -3488,7 +3456,7 @@
     }
   },
   {
-    "id": "beat-110",
+    "id": "beat-109",
     "title": "mogil'nyu plitu obossali 160 c min 448hz eupho",
     "bpm": 160,
     "key": "",
@@ -3520,7 +3488,7 @@
     }
   },
   {
-    "id": "beat-111",
+    "id": "beat-110",
     "title": "molitva 132 40 cents @eupho",
     "bpm": 132,
     "key": "",
@@ -3552,7 +3520,7 @@
     }
   },
   {
-    "id": "beat-112",
+    "id": "beat-111",
     "title": "monu lusu oblili kislotoy (opyat) 120 eupho",
     "bpm": 120,
     "key": "",
@@ -3584,7 +3552,7 @@
     }
   },
   {
-    "id": "beat-113",
+    "id": "beat-112",
     "title": "mozgi otsohli 138 eupho 40 cents",
     "bpm": 138,
     "key": "",
@@ -3616,7 +3584,7 @@
     }
   },
   {
-    "id": "beat-114",
+    "id": "beat-113",
     "title": "muha zarazila spidom 129 eupho",
     "bpm": 129,
     "key": "",
@@ -3648,7 +3616,7 @@
     }
   },
   {
-    "id": "beat-115",
+    "id": "beat-114",
     "title": "na hirosimu etot beat priletel eupho",
     "bpm": 140,
     "key": "",
@@ -3680,7 +3648,7 @@
     }
   },
   {
-    "id": "beat-116",
+    "id": "beat-115",
     "title": "na moih pohoronah budet igrat' 140",
     "bpm": 140,
     "key": "",
@@ -3712,7 +3680,7 @@
     }
   },
   {
-    "id": "beat-117",
+    "id": "beat-116",
     "title": "na samom dele huinya polnaya 127",
     "bpm": 127,
     "key": "",
@@ -3744,7 +3712,7 @@
     }
   },
   {
-    "id": "beat-118",
+    "id": "beat-117",
     "title": "na sosdatelya haypa ne pohoje 164",
     "bpm": 164,
     "key": "",
@@ -3776,7 +3744,7 @@
     }
   },
   {
-    "id": "beat-119",
+    "id": "beat-118",
     "title": "nadeus' my eche uvidimsya 126 eupho",
     "bpm": 126,
     "key": "",
@@ -3808,7 +3776,7 @@
     }
   },
   {
-    "id": "beat-120",
+    "id": "beat-119",
     "title": "nancy_6000_ashkudishka_+_flexin_+_gray_prod1____eupho",
     "bpm": 600,
     "key": "",
@@ -3840,7 +3808,7 @@
     }
   },
   {
-    "id": "beat-121",
+    "id": "beat-120",
     "title": "nastupil na serdce 164",
     "bpm": 164,
     "key": "",
@@ -3872,7 +3840,7 @@
     }
   },
   {
-    "id": "beat-122",
+    "id": "beat-121",
     "title": "ne nravitsya mne esli chestno (158 450hz c min 39 cents +2t 18 track 26.06) euph",
     "bpm": 158,
     "key": "",
@@ -3904,7 +3872,7 @@
     }
   },
   {
-    "id": "beat-123",
+    "id": "beat-122",
     "title": "ne polychilas' botanica((( 120",
     "bpm": 120,
     "key": "",
@@ -3936,7 +3904,7 @@
     }
   },
   {
-    "id": "beat-124",
+    "id": "beat-123",
     "title": "nedavno navechal 147",
     "bpm": 147,
     "key": "",
@@ -3968,7 +3936,7 @@
     }
   },
   {
-    "id": "beat-125",
+    "id": "beat-124",
     "title": "nettspend'a pereehal poezd 154",
     "bpm": 154,
     "key": "",
@@ -4000,7 +3968,7 @@
     }
   },
   {
-    "id": "beat-126",
+    "id": "beat-125",
     "title": "north west go vsrtr 182",
     "bpm": 182,
     "key": "",
@@ -4032,7 +4000,7 @@
     }
   },
   {
-    "id": "beat-127",
+    "id": "beat-126",
     "title": "obidno udalyat 172 eupho",
     "bpm": 172,
     "key": "",
@@ -4064,7 +4032,7 @@
     }
   },
   {
-    "id": "beat-128",
+    "id": "beat-127",
     "title": "obmenyal yazik na mefedron 150 40 cents eupho",
     "bpm": 150,
     "key": "",
@@ -4096,7 +4064,7 @@
     }
   },
   {
-    "id": "beat-129",
+    "id": "beat-128",
     "title": "odnovremenno s beat'om pilu smotrel 140",
     "bpm": 140,
     "key": "",
@@ -4128,7 +4096,7 @@
     }
   },
   {
-    "id": "beat-130",
+    "id": "beat-129",
     "title": "osamadaughter_152_+_99_____eupho",
     "bpm": 152,
     "key": "",
@@ -4160,7 +4128,7 @@
     }
   },
   {
-    "id": "beat-131",
+    "id": "beat-130",
     "title": "osamason obyelsya heroina 164 40 cents #eupho",
     "bpm": 164,
     "key": "",
@@ -4192,7 +4160,7 @@
     }
   },
   {
-    "id": "beat-132",
+    "id": "beat-131",
     "title": "ostanovka serdcaaaaAAaAa 180 50 cents eupho",
     "bpm": 180,
     "key": "",
@@ -4224,7 +4192,7 @@
     }
   },
   {
-    "id": "beat-133",
+    "id": "beat-132",
     "title": "otkroite disput pls 140 +99",
     "bpm": 140,
     "key": "",
@@ -4256,7 +4224,7 @@
     }
   },
   {
-    "id": "beat-134",
+    "id": "beat-133",
     "title": "otpisyvaites' 144 eupho 40 cents",
     "bpm": 144,
     "key": "",
@@ -4288,7 +4256,7 @@
     }
   },
   {
-    "id": "beat-135",
+    "id": "beat-134",
     "title": "panicheskaya ataka na pohoronah 118",
     "bpm": 118,
     "key": "",
@@ -4320,7 +4288,7 @@
     }
   },
   {
-    "id": "beat-136",
+    "id": "beat-135",
     "title": "pena-iza-rta_370____hz___+_luhsh1z___eupho__164_d-maj",
     "bpm": 370,
     "key": "",
@@ -4352,7 +4320,7 @@
     }
   },
   {
-    "id": "beat-137",
+    "id": "beat-136",
     "title": "Penso che mio padre andr all'inferno per avermi insegnato l'italiano. 124 eupho",
     "bpm": 124,
     "key": "",
@@ -4384,7 +4352,7 @@
     }
   },
   {
-    "id": "beat-138",
+    "id": "beat-137",
     "title": "peredoz 112",
     "bpm": 112,
     "key": "",
@@ -4416,7 +4384,7 @@
     }
   },
   {
-    "id": "beat-139",
+    "id": "beat-138",
     "title": "peredoznylsya v kobinete otsa 162 40 cents @eupho",
     "bpm": 162,
     "key": "",
@@ -4448,7 +4416,7 @@
     }
   },
   {
-    "id": "beat-140",
+    "id": "beat-139",
     "title": "perekinul verevku cherez golovu + eupho",
     "bpm": 140,
     "key": "",
@@ -4480,7 +4448,7 @@
     }
   },
   {
-    "id": "beat-141",
+    "id": "beat-140",
     "title": "perelom 167 c maj 40 cents +001wyh",
     "bpm": 167,
     "key": "",
@@ -4512,7 +4480,7 @@
     }
   },
   {
-    "id": "beat-142",
+    "id": "beat-141",
     "title": "perelomal koleni i ukraly portfel' 124 40 cents eupho",
     "bpm": 124,
     "key": "",
@@ -4544,7 +4512,7 @@
     }
   },
   {
-    "id": "beat-143",
+    "id": "beat-142",
     "title": "pererezal golovu davidu 156 c maj eupho",
     "bpm": 156,
     "key": "",
@@ -4576,7 +4544,7 @@
     }
   },
   {
-    "id": "beat-144",
+    "id": "beat-143",
     "title": "pereryv",
     "bpm": 140,
     "key": "",
@@ -4608,7 +4576,7 @@
     }
   },
   {
-    "id": "beat-145",
+    "id": "beat-144",
     "title": "peresel s hqd na geroin 134 eupho",
     "bpm": 134,
     "key": "",
@@ -4640,7 +4608,7 @@
     }
   },
   {
-    "id": "beat-146",
+    "id": "beat-145",
     "title": "perevod v eurysalim 148 +99",
     "bpm": 148,
     "key": "",
@@ -4672,7 +4640,7 @@
     }
   },
   {
-    "id": "beat-147",
+    "id": "beat-146",
     "title": "pesnya pered stylom 134",
     "bpm": 134,
     "key": "",
@@ -4704,7 +4672,7 @@
     }
   },
   {
-    "id": "beat-148",
+    "id": "beat-147",
     "title": "podsel na belye volosy 127.500 a min eupho +m1qqla",
     "bpm": 127,
     "key": "",
@@ -4736,7 +4704,7 @@
     }
   },
   {
-    "id": "beat-149",
+    "id": "beat-148",
     "title": "pohoje na priznaki peredoza 140 c maj 40 cents eupho",
     "bpm": 140,
     "key": "",
@@ -4768,7 +4736,7 @@
     }
   },
   {
-    "id": "beat-150",
+    "id": "beat-149",
     "title": "POJALUYSTA NAUCHUTE MENYA AGLISKOMY, MNE NYJNO SDAT' IELTS 119 eupho",
     "bpm": 119,
     "key": "",
@@ -4800,7 +4768,7 @@
     }
   },
   {
-    "id": "beat-151",
+    "id": "beat-150",
     "title": "poka delal grustno stalo, hotya vrode govno 105",
     "bpm": 105,
     "key": "",
@@ -4832,7 +4800,7 @@
     }
   },
   {
-    "id": "beat-152",
+    "id": "beat-151",
     "title": "pokonchila ssoboi 162 +jeremy",
     "bpm": 162,
     "key": "",
@@ -4864,7 +4832,7 @@
     }
   },
   {
-    "id": "beat-153",
+    "id": "beat-152",
     "title": "pokrestili pered smert'u 134 +kenzee, djpetr (eupho)_",
     "bpm": 134,
     "key": "",
@@ -4896,7 +4864,7 @@
     }
   },
   {
-    "id": "beat-154",
+    "id": "beat-153",
     "title": "pora perestat' skarmlivat' mozgi moemy psu 133 ___eupho + o0o",
     "bpm": 133,
     "key": "",
@@ -4928,7 +4896,7 @@
     }
   },
   {
-    "id": "beat-155",
+    "id": "beat-154",
     "title": "poslednii beat 1 129 +lukarajhl",
     "bpm": 129,
     "key": "",
@@ -4960,7 +4928,7 @@
     }
   },
   {
-    "id": "beat-156",
+    "id": "beat-155",
     "title": "posledstviya krovi iz yshei 180 c min eupho",
     "bpm": 180,
     "key": "",
@@ -4992,7 +4960,7 @@
     }
   },
   {
-    "id": "beat-157",
+    "id": "beat-156",
     "title": "postroil sizo v minecraft 147 eupho",
     "bpm": 147,
     "key": "",
@@ -5024,7 +4992,7 @@
     }
   },
   {
-    "id": "beat-158",
+    "id": "beat-157",
     "title": "pov credit 500000rub 140 -50cents +metroqo",
     "bpm": 500,
     "key": "",
@@ -5056,7 +5024,7 @@
     }
   },
   {
-    "id": "beat-159",
+    "id": "beat-158",
     "title": "pov k tebe lomitsya omon 144",
     "bpm": 144,
     "key": "",
@@ -5088,7 +5056,7 @@
     }
   },
   {
-    "id": "beat-160",
+    "id": "beat-159",
     "title": "pov ya prishel s epilepsieei na concert nettspend'a 123",
     "bpm": 123,
     "key": "",
@@ -5120,7 +5088,7 @@
     }
   },
   {
-    "id": "beat-161",
+    "id": "beat-160",
     "title": "primerno takoe ot Adolf'a ostalos' @eupho",
     "bpm": 140,
     "key": "",
@@ -5152,7 +5120,7 @@
     }
   },
   {
-    "id": "beat-162",
+    "id": "beat-161",
     "title": "pripadok 160",
     "bpm": 160,
     "key": "",
@@ -5184,7 +5152,7 @@
     }
   },
   {
-    "id": "beat-163",
+    "id": "beat-162",
     "title": "prishlo sms o raketnoi opasnosti 144 euphoo",
     "bpm": 144,
     "key": "",
@@ -5216,7 +5184,7 @@
     }
   },
   {
-    "id": "beat-164",
+    "id": "beat-163",
     "title": "project 69530 min life 149",
     "bpm": 695,
     "key": "",
@@ -5248,7 +5216,7 @@
     }
   },
   {
-    "id": "beat-165",
+    "id": "beat-164",
     "title": "projeg svoy rotovuy polost' 120 eupho +50cents",
     "bpm": 120,
     "key": "",
@@ -5280,7 +5248,7 @@
     }
   },
   {
-    "id": "beat-166",
+    "id": "beat-165",
     "title": "prolil kislotu na yshi136eupho",
     "bpm": 136,
     "key": "",
@@ -5312,7 +5280,7 @@
     }
   },
   {
-    "id": "beat-167",
+    "id": "beat-166",
     "title": "rest in peace alena 150 +99, fukkem (-50) eupho",
     "bpm": 150,
     "key": "",
@@ -5344,7 +5312,7 @@
     }
   },
   {
-    "id": "beat-168",
+    "id": "beat-167",
     "title": "rostelecom vse takje dolbaebi day 2 154 448hz eupho c maj",
     "bpm": 154,
     "key": "",
@@ -5376,7 +5344,7 @@
     }
   },
   {
-    "id": "beat-169",
+    "id": "beat-168",
     "title": "rostelecom vse takje ostayutsya huesosami 126 -2t 40cents d min (vrode))",
     "bpm": 126,
     "key": "",
@@ -5408,7 +5376,7 @@
     }
   },
   {
-    "id": "beat-170",
+    "id": "beat-169",
     "title": "samiy skuchniy beat v mire 164",
     "bpm": 164,
     "key": "",
@@ -5440,7 +5408,7 @@
     }
   },
   {
-    "id": "beat-171",
+    "id": "beat-170",
     "title": "sbesjal ot nih na plyaj 120 40 cents @eupho",
     "bpm": 120,
     "key": "",
@@ -5472,7 +5440,7 @@
     }
   },
   {
-    "id": "beat-172",
+    "id": "beat-171",
     "title": "sbila mashina skoroi pomochi 115(&) eupho___",
     "bpm": 115,
     "key": "",
@@ -5504,7 +5472,7 @@
     }
   },
   {
-    "id": "beat-173",
+    "id": "beat-172",
     "title": "sematary",
     "bpm": 140,
     "key": "",
@@ -5536,7 +5504,7 @@
     }
   },
   {
-    "id": "beat-174",
+    "id": "beat-173",
     "title": "serdce na samom dele ne kak na smailike 138 a maj 40 cents eupho",
     "bpm": 138,
     "key": "",
@@ -5568,7 +5536,7 @@
     }
   },
   {
-    "id": "beat-175",
+    "id": "beat-174",
     "title": "servnaya kislota 120 eupho",
     "bpm": 120,
     "key": "",
@@ -5600,7 +5568,7 @@
     }
   },
   {
-    "id": "beat-176",
+    "id": "beat-175",
     "title": "sgorel dom vmeste s tonnami 148 or 40 cents autokey try eupho",
     "bpm": 148,
     "key": "",
@@ -5632,7 +5600,7 @@
     }
   },
   {
-    "id": "beat-177",
+    "id": "beat-176",
     "title": "she 120",
     "bpm": 120,
     "key": "",
@@ -5664,7 +5632,7 @@
     }
   },
   {
-    "id": "beat-178",
+    "id": "beat-177",
     "title": "sidel_u_groba_okolo_444_dnei___60_cents__2t_134___LOOP_by_eupho",
     "bpm": 444,
     "key": "",
@@ -5696,7 +5664,7 @@
     }
   },
   {
-    "id": "beat-179",
+    "id": "beat-178",
     "title": "sirenogolovy razbudil 159 40 cents eupho",
     "bpm": 159,
     "key": "",
@@ -5728,7 +5696,7 @@
     }
   },
   {
-    "id": "beat-180",
+    "id": "beat-179",
     "title": "skins_1_season_download_no_ads_140_32_cents",
     "bpm": 140,
     "key": "",
@@ -5760,7 +5728,7 @@
     }
   },
   {
-    "id": "beat-181",
+    "id": "beat-180",
     "title": "skoro zdohny ot jary 152 +vallorry",
     "bpm": 152,
     "key": "",
@@ -5792,7 +5760,7 @@
     }
   },
   {
-    "id": "beat-182",
+    "id": "beat-181",
     "title": "slezy 140",
     "bpm": 140,
     "key": "",
@@ -5824,7 +5792,7 @@
     }
   },
   {
-    "id": "beat-183",
+    "id": "beat-182",
     "title": "slil vse dengi v kazino online 140",
     "bpm": 140,
     "key": "",
@@ -5856,7 +5824,7 @@
     }
   },
   {
-    "id": "beat-184",
+    "id": "beat-183",
     "title": "smert' v tokyo 169",
     "bpm": 169,
     "key": "",
@@ -5888,7 +5856,7 @@
     }
   },
   {
-    "id": "beat-185",
+    "id": "beat-184",
     "title": "smeshal redbull s markami 120 c min 40cents 2t up eupho",
     "bpm": 120,
     "key": "",
@@ -5920,7 +5888,7 @@
     }
   },
   {
-    "id": "beat-186",
+    "id": "beat-185",
     "title": "smeshal_butirat_s_liptonom_136______eupho",
     "bpm": 136,
     "key": "",
@@ -5952,7 +5920,7 @@
     }
   },
   {
-    "id": "beat-187",
+    "id": "beat-186",
     "title": "sobaka 136",
     "bpm": 136,
     "key": "",
@@ -5984,7 +5952,7 @@
     }
   },
   {
-    "id": "beat-188",
+    "id": "beat-187",
     "title": "sojgu tvoi grop na zadnem dvore 127 40 cents -2t eupho",
     "bpm": 127,
     "key": "",
@@ -6016,7 +5984,7 @@
     }
   },
   {
-    "id": "beat-189",
+    "id": "beat-188",
     "title": "sosedka umerla 120 d maj eupho",
     "bpm": 120,
     "key": "",
@@ -6048,7 +6016,7 @@
     }
   },
   {
-    "id": "beat-190",
+    "id": "beat-189",
     "title": "sound 140 c min",
     "bpm": 140,
     "key": "",
@@ -6080,7 +6048,7 @@
     }
   },
   {
-    "id": "beat-191",
+    "id": "beat-190",
     "title": "soundtrack k bolnice kogda kogoto na nosilkah unosyat 130",
     "bpm": 130,
     "key": "",
@@ -6112,7 +6080,7 @@
     }
   },
   {
-    "id": "beat-192",
+    "id": "beat-191",
     "title": "sparkle umerla 158 +vilefate",
     "bpm": 158,
     "key": "",
@@ -6144,7 +6112,7 @@
     }
   },
   {
-    "id": "beat-193",
+    "id": "beat-192",
     "title": "spasi i sohrani 127 eupho",
     "bpm": 127,
     "key": "",
@@ -6176,7 +6144,7 @@
     }
   },
   {
-    "id": "beat-194",
+    "id": "beat-193",
     "title": "spasibo mayot'y za EY 154 eupho",
     "bpm": 154,
     "key": "",
@@ -6208,7 +6176,7 @@
     }
   },
   {
-    "id": "beat-195",
+    "id": "beat-194",
     "title": "srezal lishnuy koshzu 164 40 cents eupho",
     "bpm": 164,
     "key": "",
@@ -6240,7 +6208,7 @@
     }
   },
   {
-    "id": "beat-196",
+    "id": "beat-195",
     "title": "structure 153 +vilefate",
     "bpm": 153,
     "key": "",
@@ -6272,7 +6240,7 @@
     }
   },
   {
-    "id": "beat-197",
+    "id": "beat-196",
     "title": "suka luche by realno umer x_x 105",
     "bpm": 105,
     "key": "",
@@ -6304,7 +6272,7 @@
     }
   },
   {
-    "id": "beat-198",
+    "id": "beat-197",
     "title": "Summer I love The Smiths, Tom Wow, (poezd padaet)",
     "bpm": 140,
     "key": "",
@@ -6336,7 +6304,7 @@
     }
   },
   {
-    "id": "beat-199",
+    "id": "beat-198",
     "title": "teper' delay tol'ko govno 138 eupho",
     "bpm": 138,
     "key": "",
@@ -6368,7 +6336,7 @@
     }
   },
   {
-    "id": "beat-200",
+    "id": "beat-199",
     "title": "the end of the fucking world 124 +parad1se",
     "bpm": 124,
     "key": "",
@@ -6400,7 +6368,7 @@
     }
   },
   {
-    "id": "beat-201",
+    "id": "beat-200",
     "title": "The Femcels + Hannah Montana 154 eupho",
     "bpm": 154,
     "key": "",
@@ -6432,7 +6400,7 @@
     }
   },
   {
-    "id": "beat-202",
+    "id": "beat-201",
     "title": "the hell(p) 127 +zestymain",
     "bpm": 127,
     "key": "",
@@ -6464,7 +6432,7 @@
     }
   },
   {
-    "id": "beat-203",
+    "id": "beat-202",
     "title": "tokyo_city_pod_tramadolom_+_vallorry___eupho",
     "bpm": 140,
     "key": "",
@@ -6496,7 +6464,7 @@
     }
   },
   {
-    "id": "beat-204",
+    "id": "beat-203",
     "title": "ty teper' chernovik 160 a min 40 cents eupho",
     "bpm": 160,
     "key": "",
@@ -6528,7 +6496,7 @@
     }
   },
   {
-    "id": "beat-205",
+    "id": "beat-204",
     "title": "ubily mladshuy sestru 124 g maj eupho",
     "bpm": 124,
     "key": "",
@@ -6560,7 +6528,7 @@
     }
   },
   {
-    "id": "beat-206",
+    "id": "beat-205",
     "title": "umer na meste 160 +parad1se",
     "bpm": 160,
     "key": "",
@@ -6592,7 +6560,7 @@
     }
   },
   {
-    "id": "beat-207",
+    "id": "beat-206",
     "title": "umer pod mostom v italy 156 40 cents -2t eupho (auto key try)",
     "bpm": 156,
     "key": "",
@@ -6624,7 +6592,7 @@
     }
   },
   {
-    "id": "beat-208",
+    "id": "beat-207",
     "title": "utrom pereslushai 148 s maj +50cents eupho",
     "bpm": 148,
     "key": "",
@@ -6656,7 +6624,7 @@
     }
   },
   {
-    "id": "beat-209",
+    "id": "beat-208",
     "title": "v kosanie 156",
     "bpm": 156,
     "key": "",
@@ -6688,7 +6656,7 @@
     }
   },
   {
-    "id": "beat-210",
+    "id": "beat-209",
     "title": "vallorry pohodu zasemplil intro skins 143 +vallorry",
     "bpm": 143,
     "key": "",
@@ -6720,7 +6688,7 @@
     }
   },
   {
-    "id": "beat-211",
+    "id": "beat-210",
     "title": "vam zvonyat 144 +veilvate",
     "bpm": 144,
     "key": "",
@@ -6752,7 +6720,7 @@
     }
   },
   {
-    "id": "beat-212",
+    "id": "beat-211",
     "title": "vmesto melatonina s'el muhamory 138 g maj eupho",
     "bpm": 138,
     "key": "",
@@ -6784,7 +6752,7 @@
     }
   },
   {
-    "id": "beat-213",
+    "id": "beat-212",
     "title": "voda s limonom + 200g tramadola 129 ___eupho",
     "bpm": 200,
     "key": "",
@@ -6816,7 +6784,7 @@
     }
   },
   {
-    "id": "beat-214",
+    "id": "beat-213",
     "title": "vopros&&&& 141",
     "bpm": 141,
     "key": "",
@@ -6848,7 +6816,7 @@
     }
   },
   {
-    "id": "beat-215",
+    "id": "beat-214",
     "title": "vse umrut, a ya ostanus' 150 +vilefate",
     "bpm": 150,
     "key": "",
@@ -6880,7 +6848,7 @@
     }
   },
   {
-    "id": "beat-216",
+    "id": "beat-215",
     "title": "vseh s pervim dnem leta 154 eupho",
     "bpm": 154,
     "key": "",
@@ -6912,7 +6880,7 @@
     }
   },
   {
-    "id": "beat-217",
+    "id": "beat-216",
     "title": "vsem privet, bitov ne bylo, byla klinichiskaya smert! 136",
     "bpm": 136,
     "key": "",
@@ -6944,7 +6912,7 @@
     }
   },
   {
-    "id": "beat-218",
+    "id": "beat-217",
     "title": "vstrechaem xavier'asobased s hlebom i sol'u 151 eupho",
     "bpm": 151,
     "key": "",
@@ -6976,7 +6944,7 @@
     }
   },
   {
-    "id": "beat-219",
+    "id": "beat-218",
     "title": "vsya ruka v tochkah 130 c maj 40 cents eupho",
     "bpm": 130,
     "key": "",
@@ -7008,7 +6976,7 @@
     }
   },
   {
-    "id": "beat-220",
+    "id": "beat-219",
     "title": "vydirnul vse pal'cy i vstavil ih s ushi 130 c min 40 cents eupho",
     "bpm": 130,
     "key": "",
@@ -7040,7 +7008,7 @@
     }
   },
   {
-    "id": "beat-221",
+    "id": "beat-220",
     "title": "vyplakalsya 146 @eupho",
     "bpm": 146,
     "key": "",
@@ -7072,7 +7040,7 @@
     }
   },
   {
-    "id": "beat-222",
+    "id": "beat-221",
     "title": "vyrizal 2 glaza i dobavil eche ushi 135 f#maj 40 cents @eupho_____",
     "bpm": 135,
     "key": "",
@@ -7104,7 +7072,7 @@
     }
   },
   {
-    "id": "beat-223",
+    "id": "beat-222",
     "title": "wanderlust + che mexico = govno 142 eupho",
     "bpm": 142,
     "key": "",
@@ -7136,7 +7104,7 @@
     }
   },
   {
-    "id": "beat-224",
+    "id": "beat-223",
     "title": "wegonebeeupho_+_daytonia_highroller_175____eupho",
     "bpm": 175,
     "key": "",
@@ -7168,7 +7136,7 @@
     }
   },
   {
-    "id": "beat-225",
+    "id": "beat-224",
     "title": "wraith9 v axye 120",
     "bpm": 120,
     "key": "",
@@ -7200,7 +7168,7 @@
     }
   },
   {
-    "id": "beat-226",
+    "id": "beat-225",
     "title": "xxx 127",
     "bpm": 127,
     "key": "",
@@ -7232,7 +7200,7 @@
     }
   },
   {
-    "id": "beat-227",
+    "id": "beat-226",
     "title": "ya 100% znal chto s americancami chto to ne tak 124 eupho",
     "bpm": 100,
     "key": "",
@@ -7264,7 +7232,7 @@
     }
   },
   {
-    "id": "beat-228",
+    "id": "beat-227",
     "title": "ya schastliv 158 +mirr",
     "bpm": 158,
     "key": "",
@@ -7296,7 +7264,7 @@
     }
   },
   {
-    "id": "beat-229",
+    "id": "beat-228",
     "title": "ya takoe eche ne nyhal 157",
     "bpm": 157,
     "key": "",
@@ -7328,7 +7296,7 @@
     }
   },
   {
-    "id": "beat-230",
+    "id": "beat-229",
     "title": "yulia mefe 159 +vilefate",
     "bpm": 159,
     "key": "",
@@ -7360,7 +7328,7 @@
     }
   },
   {
-    "id": "beat-231",
+    "id": "beat-230",
     "title": "yung lean lybit lean 135",
     "bpm": 135,
     "key": "",
@@ -7392,7 +7360,7 @@
     }
   },
   {
-    "id": "beat-232",
+    "id": "beat-231",
     "title": "zael kishki alprozolamom i vse rovno hudey 144 c#maj @eupho",
     "bpm": 144,
     "key": "",
@@ -7424,7 +7392,7 @@
     }
   },
   {
-    "id": "beat-233",
+    "id": "beat-232",
     "title": "zalil v percoviy balonchik tarhun 155 a min eupho",
     "bpm": 155,
     "key": "",
@@ -7456,7 +7424,7 @@
     }
   },
   {
-    "id": "beat-234",
+    "id": "beat-233",
     "title": "zapil alprazolam uksusom 140 c maj 448hz eupho",
     "bpm": 140,
     "key": "",
@@ -7488,7 +7456,7 @@
     }
   },
   {
-    "id": "beat-235",
+    "id": "beat-234",
     "title": "zatru sebe veny vsktyl 150 40 cents eupho0000",
     "bpm": 150,
     "key": "",
@@ -7520,7 +7488,7 @@
     }
   },
   {
-    "id": "beat-236",
+    "id": "beat-235",
     "title": "zatru ubil bleood'a 150 +99",
     "bpm": 150,
     "key": "",
@@ -7552,7 +7520,7 @@
     }
   },
   {
-    "id": "beat-237",
+    "id": "beat-236",
     "title": "zaverbovali v 148 d#min eupho +vallorry",
     "bpm": 148,
     "key": "",
@@ -7584,7 +7552,7 @@
     }
   },
   {
-    "id": "beat-238",
+    "id": "beat-237",
     "title": "ziplockiii 140 f maj +m1qqla",
     "bpm": 140,
     "key": "",
@@ -7616,7 +7584,7 @@
     }
   },
   {
-    "id": "beat-239",
+    "id": "beat-238",
     "title": "zombie3000",
     "bpm": 300,
     "key": "",
@@ -7648,7 +7616,7 @@
     }
   },
   {
-    "id": "beat-240",
+    "id": "beat-239",
     "title": "zub proglotil 167",
     "bpm": 167,
     "key": "",
@@ -7680,77 +7648,13 @@
     }
   },
   {
-    "id": "beat-241",
-    "title": "interesno na kogo ya opiralsya 156",
-    "bpm": 156,
-    "key": "",
-    "tags": [],
-    "cover": "assets/1211b41172150adc0cf2b3ee449d9eaf.jpg",
-    "audio": "uploads/interesno na kogo ya opiralsya 156.mp3",
-    "duration": 0,
-    "licenses": {
-      "mp3": {
-        "label": "MP3 Lease",
-        "price": "$8"
-      },
-      "wav": {
-        "label": "MP3 + WAV Lease",
-        "price": "$13"
-      },
-      "stems": {
-        "label": "Trackout Stems",
-        "price": "$16"
-      },
-      "unlimited": {
-        "label": "Unlimited Lease",
-        "price": "$29"
-      },
-      "exclusive": {
-        "label": "Exclusive",
-        "price": "$44+"
-      }
-    }
-  },
-  {
-    "id": "beat-242",
-    "title": "polnaya khuynya 150",
-    "bpm": 150,
-    "key": "",
-    "tags": [],
-    "cover": "assets/1211b41172150adc0cf2b3ee449d9eaf.jpg",
-    "audio": "uploads/polnaya khuynya 150.mp3",
-    "duration": 0,
-    "licenses": {
-      "mp3": {
-        "label": "MP3 Lease",
-        "price": "$8"
-      },
-      "wav": {
-        "label": "MP3 + WAV Lease",
-        "price": "$13"
-      },
-      "stems": {
-        "label": "Trackout Stems",
-        "price": "$16"
-      },
-      "unlimited": {
-        "label": "Unlimited Lease",
-        "price": "$29"
-      },
-      "exclusive": {
-        "label": "Exclusive",
-        "price": "$44+"
-      }
-    }
-  },
-  {
-    "id": "beat-243",
+    "id": "beat-240",
     "title": "ty ne vinovat v etom 136 +izbegayte +eyfo",
     "bpm": 136,
     "key": "",
     "tags": [],
     "cover": "assets/1211b41172150adc0cf2b3ee449d9eaf.jpg",
-    "audio": "uploads/ty ne vinovat v etom 136 +izbegayte +eyfo.mp3",
+    "audio": "https://res.cloudinary.com/uk6renhq/video/upload/v1785000718/eupho/beats/beat-243.mp3",
     "duration": 0,
     "licenses": {
       "mp3": {
@@ -7776,39 +7680,7 @@
     }
   },
   {
-    "id": "beat-244",
-    "title": "fotookhota 168 eupho",
-    "bpm": 168,
-    "key": "",
-    "tags": [],
-    "cover": "assets/1211b41172150adc0cf2b3ee449d9eaf.jpg",
-    "audio": "uploads/fotookhota 168 eupho.mp3",
-    "duration": 0,
-    "licenses": {
-      "mp3": {
-        "label": "MP3 Lease",
-        "price": "$8"
-      },
-      "wav": {
-        "label": "MP3 + WAV Lease",
-        "price": "$13"
-      },
-      "stems": {
-        "label": "Trackout Stems",
-        "price": "$16"
-      },
-      "unlimited": {
-        "label": "Unlimited Lease",
-        "price": "$29"
-      },
-      "exclusive": {
-        "label": "Exclusive",
-        "price": "$44+"
-      }
-    }
-  },
-  {
-    "id": "beat-245",
+    "id": "beat-241",
     "title": "150 (50cents) eupho +99",
     "bpm": 150,
     "key": "",
