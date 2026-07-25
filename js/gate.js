@@ -20,7 +20,7 @@
 
   function shuffleCode() {
     currentCode = generateCode(6);
-    codeEl.textContent = currentCode.split('').map(() => '·').join('');
+    codeEl.textContent = currentCode.split('').map(() => '-').join('');
   }
 
   // De Jong attractor params

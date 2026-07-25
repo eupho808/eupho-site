@@ -100,11 +100,11 @@ function renderBeats() {
 
     card.innerHTML =
       '<div class="beat-cover" style="background-image:url(' + escapeHtml(cover) + ')">' +
-        '<div class="beat-play-overlay"><div class="beat-play-btn">▶</div></div>' +
+        '<div class="beat-play-overlay"><div class="beat-play-btn"><span class="icon-play"></span></div></div>' +
       '</div>' +
       '<div class="beat-info">' +
         '<div class="beat-title">' + escapeHtml(beat.title) + '</div>' +
-        '<div class="beat-meta">' + (beat.bpm || '?') + ' BPM · ' + (beat.key || '?') + '</div>' +
+        '<div class="beat-meta">' + (beat.bpm || '?') + ' BPM | ' + (beat.key || '?') + '</div>' +
         '<div class="beat-tags">' + tags + '</div>' +
         '<div class="beat-price-row"><span class="beat-starting">from ' + escapeHtml(starting) + '</span></div>' +
       '</div>';
@@ -143,7 +143,7 @@ function selectBeat(id) {
   currentAudio = new Audio(beat.audio || beat.preview);
 
   playerTitle.textContent = beat.title;
-  playerMeta.textContent = (beat.bpm || '?') + ' BPM · ' + (beat.key || '?') + ' · ' + (beat.tags || []).join(', ');
+  playerMeta.textContent = (beat.bpm || '?') + ' BPM | ' + (beat.key || '?') + ' | ' + (beat.tags || []).join(', ');
   playerCover.style.backgroundImage = 'url(' + (beat.cover || 'assets/13.jpg') + ')';
   playerBuy.innerHTML = renderLicenseButtons(beat);
   bindLicenseButtons(playerBuy, beat);
@@ -151,23 +151,23 @@ function selectBeat(id) {
   document.querySelectorAll('.beat-card').forEach(c => c.classList.toggle('active', c.dataset.id === id));
 
   currentAudio.addEventListener('timeupdate', updateTime);
-  currentAudio.addEventListener('ended', () => { playerPlay.textContent = '▶'; });
+  currentAudio.addEventListener('ended', () => { playerPlay.innerHTML = '<span class="icon-play"></span>'; });
   currentAudio.addEventListener('error', () => { playerTitle.textContent = 'preview unavailable'; });
 
   playerBar.classList.add('active');
   drawWave();
 
-  currentAudio.play().then(() => { playerPlay.textContent = '■'; }).catch(() => { playerPlay.textContent = '▶'; });
+  currentAudio.play().then(() => { playerPlay.innerHTML = '<span class="icon-stop"></span>'; }).catch(() => { playerPlay.innerHTML = '<span class="icon-play"></span>'; });
 }
 
 function togglePlay() {
   if (!currentAudio) return;
   if (currentAudio.paused) {
     currentAudio.play();
-    playerPlay.textContent = '■';
+    playerPlay.innerHTML = '<span class="icon-stop"></span>';
   } else {
     currentAudio.pause();
-    playerPlay.textContent = '▶';
+    playerPlay.innerHTML = '<span class="icon-play"></span>';
   }
 }
 
@@ -196,7 +196,7 @@ function bindLicenseButtons(container, beat) {
       const type = btn.dataset.type;
       const l = (beat.licenses || {})[type] || { label: type, price: beat.price || '$?' };
       const url = 'https://t.me/' + TELEGRAM_HANDLE + '?text=' +
-        encodeURIComponent('hi, i want to buy "' + beat.title + '" — ' + l.label + ' (' + l.price + ')');
+        encodeURIComponent('hi, i want to buy "' + beat.title + '" - ' + l.label + ' (' + l.price + ')');
       window.open(url, '_blank');
     });
   });

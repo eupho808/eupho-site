@@ -69,28 +69,15 @@ document.addEventListener('DOMContentLoaded', () => {
     strokes = [];
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     saveLocal();
+    status.textContent = 'cleared';
+    status.className = 'upload-status';
+    setTimeout(() => { status.textContent = ''; }, 2000);
   });
 
-  saveBtn.addEventListener('click', async () => {
-    try {
-      const res = await fetch(window.API_BASE + '/canvas', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(strokes)
-      });
-      const data = await res.json();
-      if (data.success) {
-        saveLocal();
-        status.textContent = 'saved';
-        status.className = 'upload-status success';
-      } else {
-        status.textContent = 'failed';
-        status.className = 'upload-status error';
-      }
-    } catch (e) {
-      status.textContent = 'offline';
-      status.className = 'upload-status error';
-    }
+  saveBtn.addEventListener('click', () => {
+    saveLocal();
+    status.textContent = 'saved locally';
+    status.className = 'upload-status success';
     setTimeout(() => { status.className = 'upload-status'; status.textContent = ''; }, 2000);
   });
 
@@ -122,19 +109,14 @@ function saveLocal() {
   localStorage.setItem(CANVAS_KEY, JSON.stringify(strokes));
 }
 
-async function load(ctx) {
-  try {
-    const res = await fetch(window.API_BASE + '/canvas');
-    const serverStrokes = await res.json();
-    if (serverStrokes && serverStrokes.length) {
-      strokes = serverStrokes;
-    } else {
-      const local = localStorage.getItem(CANVAS_KEY);
-      if (local) strokes = JSON.parse(local);
+function load(ctx) {
+  const local = localStorage.getItem(CANVAS_KEY);
+  if (local) {
+    try {
+      strokes = JSON.parse(local);
+    } catch (e) {
+      strokes = [];
     }
-  } catch (e) {
-    const local = localStorage.getItem(CANVAS_KEY);
-    if (local) strokes = JSON.parse(local);
   }
   redraw(ctx);
 }
