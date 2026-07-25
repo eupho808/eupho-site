@@ -1,0 +1,25 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <defs>
+    <radialGradient id="flesh" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#c49488"/>
+      <stop offset="45%" stop-color="#8a5a52"/>
+      <stop offset="85%" stop-color="#4a2a2a"/>
+      <stop offset="100%" stop-color="#2e1a1a"/>
+    </radialGradient>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.35"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="200" height="150" fill="url(#flesh)"/>
+  <rect width="200" height="150" filter="url(#noise)" opacity="0.5"/>
+  <path d="M10,15 Q45,55 25,100 T55,145" stroke="#4a1010" stroke-width="2.5" fill="none" opacity="0.75"/>
+  <path d="M190,25 Q155,70 175,115 T145,148" stroke="#4a1010" stroke-width="2" fill="none" opacity="0.65"/>
+  <path d="M100,5 Q85,45 105,85 T90,140" stroke="#5a1a1a" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M50,140 Q70,120 90,135 T130,130" stroke="#5a1a1a" stroke-width="1" fill="none" opacity="0.5"/>
+  <ellipse cx="55" cy="45" rx="28" ry="20" fill="#e0b0a0" opacity="0.22"/>
+  <ellipse cx="135" cy="95" rx="20" ry="15" fill="#e0b0a0" opacity="0.18"/>
+</svg>

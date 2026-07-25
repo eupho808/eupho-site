@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Play Alice: 散歩 — a slow Japanese indie horror walk through a corrupted Wonderland forest.">
+  <title>Alice: 散歩 — Walk — eupho</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="ambient-overlay"></div>
+  <div class="vein-line"></div>
+  <div class="vein-line right"></div>
+  <div class="site">
+    <div class="top-bar">
+      <span>Playing as Guest. Session: anonymous.</span>
+      <div>
+        <a href="index.html">Back to market</a>
+        <a href="beats.html">Beats</a>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="logo"><img class="logo-img" src="assets/1211b41172150adc0cf2b3ee449d9eaf.jpg" alt="eupho"></div>
+      <div class="brand">
+        <a href="index.html" class="brand-name glitch-text" data-text="eupho">eupho</a>
+        <div class="brand-tagline">producer store · beats · kits · games · visuals</div>
+      </div>
+      <div class="header-spacer"></div>
+      <a href="index.html" class="btn">← Back to Listings</a>
+    </header>
+
+    <div class="main-layout game-page">
+      <aside class="sidebar">
+        <h3>Game Details</h3>
+        <ul>
+          <li><span>Producer: eupho</span></li>
+          <li><span>Version: 0.9.1</span></li>
+          <li><span>Rating: ★★★★★</span></li>
+          <li><span>Plays: 1,847</span></li>
+        </ul>
+
+        <h3>Controls</h3>
+        <ul>
+          <li><span>1 2 3 — choose option</span></li>
+          <li><span>Space — skip typing</span></li>
+          <li><span>Click — select choice</span></li>
+        </ul>
+
+        <div class="notice urgent">
+          This experience may cause anxiety or unwelcome memories. Launch at your own risk.
+        </div>
+
+        <div class="product-thumb" style="margin-top:14px;">
+          <img src="assets/16.jpg" alt="Alice featured" style="filter:contrast(1.05) saturate(0.8) sepia(0.1);">
+        </div>
+      </aside>
+
+      <main class="content">
+        <div class="game-header">
+          <div class="game-title">Alice: 散歩 — Walk</div>
+          <div class="status-bar" style="margin:0; padding:4px 8px; border:1px solid var(--border);">
+            <span class="live">● Online</span>
+            <span>Instant delivery</span>
+          </div>
+        </div>
+
+        <div class="featured-box" style="margin-bottom:14px;">
+          <p class="featured-desc" style="margin-bottom:0;">
+            <strong>About this listing:</strong> A slow Japanese indie horror walk through a corrupted Wonderland forest.
+            Collect six lost notes. The Queen is patient, but she knows where you are.
+            <span class="corrupt">Do not look behind you.</span>
+          </p>
+        </div>
+
+        <div class="game-wrapper">
+          <div id="game-container" tabindex="0">
+            <div class="game-overlay" id="start-overlay">
+              <h2>Alice: 散歩 — Walk</h2>
+              <p>A slow visual novel through a corrupted Wonderland. Your choices end you differently.</p>
+              <div class="controls-grid">
+                <div class="control-item"><kbd>CLICK</kbd>choose</div>
+                <div class="control-item"><kbd>1 2 3</kbd>select option</div>
+                <div class="control-item"><kbd>SPACE</kbd>skip typing</div>
+              </div>
+              <button class="btn btn-primary" id="start-btn">▶ Begin Walk</button>
+            </div>
+
+            <canvas id="game-canvas" width="960" height="540"></canvas>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="beats.html">Beats</a>
+        <a href="kits.html">Kits</a>
+        <a href="game.html">Game</a>
+        <a href="visuals.html">Visuals</a>
+        <a href="watchers.html">Watchers</a>
+        <a href="profiles.html">Producer</a>
+        <a href="about.html">About</a>
+      </div>
+      <p>© 2011-2026 eupho // no logs // play at your own risk</p>
+    </footer>
+  </div>
+
+  <script src="js/guard.js"></script>
+  <script type="module" src="js/alice2/main.js"></script>
+  <script src="js/looking-glass.js"></script>
+  <script src="js/whispers.js"></script>
+</body>
+</html>

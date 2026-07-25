@@ -1,0 +1,14 @@
+{
+  "name": "eupho-site",
+  "version": "1.0.0",
+  "description": "eupho producer store — beats, kits, games, visuals",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dev": "netlify dev",
+    "deploy": "netlify deploy --prod"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  },
+  "dependencies": {}
+}

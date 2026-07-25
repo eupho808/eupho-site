@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dream Maze — eupho</title>
+  <link rel="stylesheet" href="css/main.css">
+  <style>
+    .dream-canvas {
+      width: 100%;
+      height: 60vh;
+      border: 1px solid var(--border-dark);
+      background: #0a0a0a;
+      display: block;
+    }
+    .dream-hint {
+      font-size: 11px;
+      color: var(--text-dim);
+      text-align: center;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="site">
+    <div class="top-bar"><span>Dream architecture.</span><a href="index.html">Market</a></div>
+    <header class="header">
+      <div class="logo"><img class="logo-img" src="assets/1211b41172150adc0cf2b3ee449d9eaf.jpg" alt="eupho"></div>
+      <div class="brand">
+        <a href="index.html" class="brand-name">eupho</a>
+        <div class="brand-tagline">dream maze · click to fracture</div>
+      </div>
+    </header>
+
+    <main class="content">
+      <div class="featured-header">Dream Maze</div>
+      <canvas id="dream" class="dream-canvas"></canvas>
+      <p class="dream-hint">Click or drag to build corridors. Wait to forget them.</p>
+    </main>
+
+    <footer class="footer"><p>© 2011-2026 eupho // dream room // <a href="watchers.html">someone is dreaming nearby</a></p></footer>
+  </div>
+
+  <script src="js/guard.js"></script>
+  <script src="js/dream.js"></script>
+  <script src="js/looking-glass.js"></script>
+  <script src="js/whispers.js"></script>
+</body>
+</html>

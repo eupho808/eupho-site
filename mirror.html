@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mirror — eupho</title>
+  <link rel="stylesheet" href="css/main.css">
+  <style>
+    .mirror-page { text-align: center; padding: 20px; }
+    .mirror-canvas {
+      width: 100%;
+      max-width: 480px;
+      height: 360px;
+      border: 1px solid var(--border-dark);
+      background: #111;
+      margin: 0 auto 16px;
+      display: block;
+      filter: contrast(1.1) saturate(0.3) brightness(0.9);
+    }
+    .mirror-text {
+      font-size: 12px;
+      color: var(--text-dim);
+      min-height: 2.5em;
+    }
+    .mirror-question {
+      font-size: 14px;
+      color: var(--blood);
+      margin-bottom: 12px;
+    }
+    .mirror-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+  <div class="site">
+    <div class="top-bar"><span>The mirror is not a page.</span><a href="index.html">Market</a></div>
+    <header class="header">
+      <div class="logo"><img class="logo-img" src="assets/1211b41172150adc0cf2b3ee449d9eaf.jpg" alt="eupho"></div>
+      <div class="brand">
+        <a href="index.html" class="brand-name">eupho</a>
+        <div class="brand-tagline">mirror room · not for everyone</div>
+      </div>
+    </header>
+
+    <main class="content">
+      <div class="mirror-page">
+        <div class="featured-header">Mirror</div>
+        <video class="mirror-canvas" id="mirror-video" autoplay playsinline muted></video>
+        <div class="mirror-question" id="mirror-q">Allow the mirror to see you?</div>
+        <div class="mirror-buttons">
+          <button class="btn" id="mirror-yes">Yes</button>
+          <button class="btn" id="mirror-no">No</button>
+        </div>
+        <p class="mirror-text" id="mirror-text">The glass only answers to faces.</p>
+      </div>
+    </main>
+
+    <footer class="footer"><p>© 2011-2026 eupho // mirror room // <a href="watchers.html">someone is watching</a></p></footer>
+  </div>
+
+  <script src="js/guard.js"></script>
+  <script src="js/mirror.js"></script>
+  <script src="js/looking-glass.js"></script>
+  <script src="js/whispers.js"></script>
+</body>
+</html>

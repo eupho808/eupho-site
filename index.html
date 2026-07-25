@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="eupho — infected anonymous market for dark games, beats, and digital artifacts.">
+  <title>eupho — Anonymous Experiences</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="ambient-overlay"></div>
+  <div class="vein-line"></div>
+  <div class="vein-line right"></div>
+  <div class="site">
+    <div class="top-bar">
+      <span>Welcome, Guest. Last login: <span class="corrupt">never_again</span>.</span>
+      <div>
+        <a href="profiles.html" data-i18n="registerLogin">Register / Login</a>
+        <a href="about.html" data-i18n="support">Support</a>
+        <a href="#" id="surprise-link" data-i18n="surpriseMe">Surprise Me</a>
+        <a href="#" id="lang-toggle">RU</a>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="logo"><img class="logo-img" src="assets/1211b41172150adc0cf2b3ee449d9eaf.jpg" alt="eupho"></div>
+      <div class="brand">
+        <a href="index.html" class="brand-name glitch-text" data-text="eupho">eupho</a>
+        <div class="brand-tagline" data-i18n="tagline">anonymous market · dark games · corrupted beats · digital flesh</div>
+      </div>
+      <div class="header-spacer"></div>
+      <form class="search-box" onsubmit="return false;">
+        <input type="text" placeholder="search artifacts..." aria-label="Search" data-i18n-placeholder="searchPlaceholder">
+        <button type="submit" data-i18n="search">Search</button>
+      </form>
+    </header>
+
+    <div class="main-layout">
+      <aside class="sidebar">
+        <h3 data-i18n="catalog">Catalog</h3>
+        <ul>
+          <li><a href="index.html" class="active"><span data-i18n="home">Home</span></a></li>
+          <li><a href="beats.html"><span data-i18n="beats">Beats</span> <span class="count">(0)</span></a></li>
+          <li><a href="kits.html"><span data-i18n="drumKits">Drum Kits</span> <span class="count">(0)</span></a></li>
+          <li><a href="game.html"><span data-i18n="game">Game</span> <span class="count">(1)</span></a></li>
+          <li><a href="visuals.html"><span data-i18n="visuals">Visuals</span> <span class="count">(3)</span></a></li>
+          <li><a href="watchers.html" class="corrupt"><span data-i18n="watchers">Watchers</span> <span class="count">(10)</span></a></li>
+        </ul>
+
+        <h3 data-i18n="rooms">Rooms</h3>
+        <ul>
+          <li><a href="mirror.html"><span data-i18n="mirror">Mirror</span></a></li>
+          <li><a href="teeth.html"><span data-i18n="teeth">Teeth</span></a></li>
+          <li><a href="dream.html"><span data-i18n="dream">Dream</span></a></li>
+          <li><a href="rabbit-hole.html" class="corrupt"><span data-i18n="rabbitHole">Rabbit Hole</span></a></li>
+        </ul>
+
+        <h3 data-i18n="account">Account</h3>
+        <ul>
+          <li><a href="profiles.html"><span data-i18n="producer">Producer</span></a></li>
+          <li><a href="about.html"><span data-i18n="about">About</span></a></li>
+          <li><a href="admin.html"><span data-i18n="admin">Admin</span></a></li>
+        </ul>
+
+        <div class="notice urgent">
+          We know what you are looking for. Some artifacts remember being opened. No refunds for corrupted saves, broken psyches, or teeth lost to the looking-glass.
+        </div>
+      </aside>
+
+      <main class="content">
+        <div class="status-bar">
+          <span class="live" data-i18n="marketOnline">● Market online</span>
+          <span data-i18n="escrow">Escrow enabled</span>
+          <span class="warn" data-i18n="pgp">PGP verification required</span>
+          <span data-i18n="balance">Your balance: 0.00 teeth</span>
+        </div>
+
+        <nav class="breadcrumb">
+          <a href="index.html" data-i18n="home">Home</a> &gt; <a href="game.html" data-i18n="featured">Featured</a>
+        </nav>
+
+        <div class="notice" data-i18n="welcomeNotice">
+          Welcome to eupho. All transactions are final. Use escrow and verify vendor PGP keys before purchase.
+        </div>
+
+        <div class="featured-box">
+          <div class="featured-header" data-i18n="featuredHeader">Featured Listing</div>
+          <section class="featured">
+            <div class="featured-image">
+              <img src="assets/16.jpg" alt="Alice game thumbnail">
+            </div>
+            <div class="featured-body">
+              <h1 class="featured-title"><a href="game.html" data-i18n="featuredTitle">Alice: Fractured Looking-Glass</a></h1>
+              <div class="featured-meta">
+                <span data-i18n="vendorEupho">Vendor: eupho</span>
+                <span data-i18n="sales">Sales: 1,847</span>
+                <span data-i18n="rating">Rating: ★★★★★</span>
+                <span data-i18n="ships">Ships: instant digital</span>
+              </div>
+              <p class="featured-desc" data-i18n="featuredDesc">
+                A psychological horror visual novel inspired by Alice: Madness Returns.
+                Walk through the Vale of Tears, recover lost memories, and survive the Hysteria.
+                Runs directly in your browser. No download required.
+              </p>
+              <div class="featured-price" data-i18n="freeToPlay">free to play</div>
+              <div class="featured-actions">
+                <a href="game.html" class="btn btn-primary" data-i18n="playNow">Play Now</a>
+                <button class="btn" data-wishlist="alice-walk" data-i18n="addWishlist">Add to Wishlist</button>
+                <a href="https://t.me/euphotg" target="_blank" class="btn" data-i18n="contactVendor">Contact Vendor</a>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="section-header">
+          <span class="section-title" data-i18n="moreListings">More Listings</span>
+        </div>
+
+        <section class="product-grid" id="product-grid">
+          <article class="product" data-category="games">
+            <div class="product-thumb">
+              <img src="assets/0fc087e240a9d044251fbcd6dcf11fbd.jpg" alt="Alice: Walk">
+            </div>
+            <div class="product-title"><a href="game.html" data-i18n="aliceTitle">Alice: Walk</a></div>
+            <div class="product-vendor">vendor: eupho</div>
+            <p class="product-desc" data-i18n="aliceDesc">Psychological horror visual novel through corrupted Wonderland.</p>
+            <div class="product-footer">
+              <span class="product-price" data-i18n="free">free</span>
+              <span class="product-rating">★★★★★</span>
+            </div>
+          </article>
+
+          <article class="product" data-category="visuals">
+            <div class="product-thumb">
+              <img src="assets/3f8bf865a5c12bb1eb94d1f8d3c25004.jpg" alt="Flesh / Angel / Machine">
+            </div>
+            <div class="product-title"><a href="visuals.html" data-i18n="fleshTitle">Flesh / Angel / Machine</a></div>
+            <div class="product-vendor">vendor: eupho</div>
+            <p class="product-desc" data-i18n="fleshDesc">Visual triptych. Teeth, circuitry and wings.</p>
+            <div class="product-footer">
+              <span class="product-price" data-i18n="free">free</span>
+              <span class="product-rating">★★★★★</span>
+            </div>
+          </article>
+
+          <article class="product" data-category="visuals">
+            <div class="product-thumb">
+              <img src="assets/99e0dbf969f0ca47ea2df78c9bad46f9.jpg" alt="how i see her">
+            </div>
+            <div class="product-title"><a href="visuals.html" data-i18n="herTitle">how i see her</a></div>
+            <div class="product-vendor">vendor: eupho</div>
+            <p class="product-desc" data-i18n="herDesc">Opaline. Purity. Guilt. A visual poem.</p>
+            <div class="product-footer">
+              <span class="product-price" data-i18n="free">free</span>
+              <span class="product-rating">★★★★★</span>
+            </div>
+          </article>
+        </section>
+
+        <div class="notice" style="margin-top:20px;" data-i18n="lookingForMore">
+          Looking for more? Visit the <a href="game.html">Alice: Walk</a> game, the <a href="visuals.html">Visuals</a> gallery, the <a href="watchers.html">Watchers Hall</a>, or the <a href="mirror.html">Weird Rooms</a>. Social links are in the footer.
+        </div>
+
+        <div class="featured-box" style="margin-top:20px;">
+          <div class="featured-header" data-i18n="canvasHeader">Shared Canvas — leave a mark</div>
+          <canvas id="home-canvas" width="600" height="240" style="width:100%;height:240px;background:#e8e3d7;border:1px solid var(--border-dark);cursor:crosshair;"></canvas>
+          <div style="display:flex;gap:6px;margin-top:6px;flex-wrap:wrap;align-items:center;">
+            <input type="color" id="canvas-color" value="#4a3f35" style="width:40px;height:28px;border:1px solid var(--border-dark);">
+            <input type="range" id="canvas-size" min="1" max="10" value="3" style="width:80px;">
+            <button class="btn" id="canvas-clear" data-i18n="clear">Clear</button>
+            <button class="btn" id="canvas-save" data-i18n="saveWall">Save to wall</button>
+            <span id="canvas-status" class="upload-status" style="margin-left:auto;"></span>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="beats.html">Beats</a>
+        <a href="kits.html">Kits</a>
+        <a href="game.html">Game</a>
+        <a href="visuals.html">Visuals</a>
+        <a href="watchers.html">Watchers</a>
+        <a href="profiles.html">Producer</a>
+        <a href="about.html">About</a>
+        <a href="https://t.me/euphotg" target="_blank" rel="noopener">Telegram</a>
+        <a href="https://www.instagram.com/eupho_____/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.youtube.com/@16eupho/videos" target="_blank" rel="noopener">YouTube</a>
+      </div>
+      <p>© 2011-2026 eupho // no logs kept // browse at your own risk // <a href="#" id="footer-surprise">I am bored</a></p>
+    </footer>
+  </div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/guard.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/canvas-wall.js"></script>
+  <script src="js/surprise.js"></script>
+  <script src="js/looking-glass.js"></script>
+  <script src="js/whispers.js"></script>
+</body>
+</html>

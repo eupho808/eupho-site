@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vendor Terminal — eupho</title>
+  <link rel="stylesheet" href="css/main.css">
+  <style>
+    .admin-login { max-width: 320px; margin: 60px auto; padding: 16px; border: 1px solid var(--border-dark); background: #e8e3d7; }
+    .admin-login input[type="password"] { width: 100%; box-sizing: border-box; padding: 5px; border: 1px solid var(--border-dark); background: #f2efe6; font-size: 13px; margin-bottom: 10px; }
+    .admin-warning { color: var(--blood); font-size: 11px; margin-bottom: 12px; }
+    .admin-panel { display: none; }
+    .admin-panel.active { display: block; }
+    .admin-form { border: 1px solid var(--border-dark); padding: 12px; background: #efe9dd; margin-bottom: 16px; }
+    .admin-form label { display: block; font-size: 11px; color: var(--text-dim); margin-bottom: 3px; }
+    .admin-form input, .admin-form select { width: 100%; box-sizing: border-box; padding: 5px; margin-bottom: 8px; border: 1px solid var(--border-dark); background: #f2efe6; font-size: 12px; }
+    .admin-form .license-row { display: flex; gap: 8px; margin-bottom: 6px; }
+    .admin-form .license-row input { flex: 1; margin-bottom: 0; }
+    .admin-upload { border: 1px dashed var(--border-dark); padding: 16px; text-align: center; cursor: pointer; background: #efe9dd; margin-bottom: 10px; }
+    .admin-upload.dragover { border-style: solid; background: #e8e2d6; border-color: var(--blood); }
+    .admin-list { border: 1px solid var(--border); background: #f2efe6; padding: 8px; min-height: 80px; }
+    .admin-item { display: flex; justify-content: space-between; align-items: center; padding: 6px 4px; border-bottom: 1px solid #d8d2c6; font-size: 12px; }
+    .admin-item:last-child { border-bottom: none; }
+    .admin-item button { font-size: 11px; padding: 2px 8px; }
+    .admin-meta { font-size: 11px; color: var(--text-dim); margin-bottom: 8px; }
+    .admin-hidden { display: none; }
+    .tab-row { display: flex; gap: 6px; margin-bottom: 12px; }
+    .tab-btn.active { background: var(--blood); color: #f0ece2; border-color: var(--blood); }
+  </style>
+</head>
+<body>
+  <div class="site">
+    <div class="top-bar">
+      <span class="admin-warning">RESTRICTED TERMINAL — AUTHORIZED VENDOR ONLY</span>
+      <div><a href="index.html">Back to Market</a></div>
+    </div>
+
+    <header class="header">
+      <div class="logo"><img class="logo-img" src="assets/1211b41172150adc0cf2b3ee449d9eaf.jpg" alt="eupho"></div>
+      <div class="brand">
+        <a href="index.html" class="brand-name">eupho</a>
+        <div class="brand-tagline">vendor terminal · do not share this URL</div>
+      </div>
+    </header>
+
+    <div class="main-layout">
+      <aside class="sidebar">
+        <h3>Terminal</h3>
+        <ul>
+          <li><a href="index.html">Market Home</a></li>
+          <li><a href="beats.html">Public Beats</a></li>
+          <li><a href="kits.html">Drum Kits</a></li>
+          <li><a href="game.html">Alice: Walk</a></li>
+        </ul>
+        <div class="notice urgent">Manage beats, kits, and watch the shared wall.</div>
+      </aside>
+
+      <main class="content">
+        <div class="status-bar">
+          <span class="warn">● Secure session</span>
+          <span>Server storage</span>
+        </div>
+
+        <nav class="breadcrumb"><a href="index.html">Home</a> &gt; <span class="corrupt">Vendor Terminal</span></nav>
+
+        <div class="admin-login" id="admin-login">
+          <div class="featured-header">Vendor Authentication</div>
+          <p class="admin-warning">If you are not the vendor, leave.</p>
+          <input type="password" id="admin-pass" placeholder="terminal key" autocomplete="off">
+          <button class="btn btn-primary" id="admin-login-btn">Unlock Terminal</button>
+          <div class="upload-status error admin-hidden" id="login-error">Invalid key.</div>
+        </div>
+
+        <div class="admin-panel" id="admin-panel">
+          <div class="tab-row">
+            <button class="btn tab-btn active" data-tab="beats">Beats</button>
+            <button class="btn tab-btn" data-tab="kits">Drum Kits</button>
+          </div>
+
+          <div id="tab-beats">
+            <div class="admin-form">
+              <div class="featured-header">Upload Beat</div>
+              <label>Audio file (MP3/WAV)</label>
+              <input type="file" id="beat-audio" accept=".mp3,.wav,audio/mpeg,audio/wav">
+              <label>Cover image (JPG/PNG, optional)</label>
+              <input type="file" id="beat-cover" accept=".jpg,.jpeg,.png">
+              <div class="license-row">
+                <input type="text" id="beat-title" placeholder="Title">
+                <input type="text" id="beat-bpm" placeholder="BPM">
+                <input type="text" id="beat-key" placeholder="Key">
+              </div>
+              <label>Tags (comma separated)</label>
+              <input type="text" id="beat-tags" placeholder="dark, phonk, aggressive">
+              <label>Licenses</label>
+              <div class="license-row"><input type="text" id="lic-mp3" placeholder="MP3 price" value="$30"><input type="text" id="lic-wav" placeholder="WAV price" value="$50"></div>
+              <div class="license-row"><input type="text" id="lic-stems" placeholder="Stems price" value="$100"><input type="text" id="lic-exclusive" placeholder="Exclusive price" value="$300"></div>
+              <button class="btn btn-primary" id="beat-upload-btn">Upload Beat</button>
+              <div class="upload-status" id="beat-upload-status"></div>
+            </div>
+
+            <div class="section-header"><span class="section-title">Catalogued Beats</span><button class="btn" id="admin-export-btn">Export JSON</button></div>
+            <div class="admin-meta" id="admin-count">0 beats on server</div>
+            <div class="admin-list" id="admin-list"></div>
+          </div>
+
+          <div id="tab-kits" class="admin-hidden">
+            <div class="admin-form">
+              <div class="featured-header">Upload Drum Kit</div>
+              <label>ZIP archive</label>
+              <input type="file" id="kit-file" accept=".zip">
+              <input type="text" id="kit-title" placeholder="Kit title">
+              <input type="text" id="kit-price" placeholder="Price" value="$25">
+              <input type="text" id="kit-desc" placeholder="Description">
+              <button class="btn btn-primary" id="kit-upload-btn">Upload Kit</button>
+              <div class="upload-status" id="kit-upload-status"></div>
+            </div>
+            <div class="section-header"><span class="section-title">Catalogued Kits</span></div>
+            <div class="admin-list" id="admin-kits-list"></div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer class="footer"><p>© 2011-2026 eupho // vendor terminal</p></footer>
+  </div>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>

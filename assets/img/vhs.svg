@@ -1,0 +1,21 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150">
+  <rect width="200" height="150" fill="#0a0808"/>
+  <g stroke="#c0b0a0" stroke-width="1" opacity="0.25">
+    <line x1="0" y1="18" x2="200" y2="24"/>
+    <line x1="0" y1="58" x2="200" y2="52"/>
+    <line x1="0" y1="102" x2="200" y2="112"/>
+  </g>
+  <path d="M55,142 Q78,78 100,36 Q122,78 145,142" fill="#2a1512" opacity="0.75"/>
+  <ellipse cx="100" cy="46" rx="28" ry="33" fill="#3a201c" opacity="0.85"/>
+  <circle cx="91" cy="43" r="4" fill="#c0b0a0" opacity="0.8"/>
+  <circle cx="109" cy="43" r="4" fill="#c0b0a0" opacity="0.8"/>
+  <g fill="#c0b0a0" opacity="0.12">
+    <rect x="12" y="12" width="3" height="3"/>
+    <rect x="32" y="132" width="4" height="4"/>
+    <rect x="152" y="42" width="3" height="3"/>
+    <rect x="172" y="122" width="5" height="5"/>
+    <rect x="82" y="102" width="3" height="3"/>
+  </g>
+  <rect x="52" y="31" width="96" height="88" fill="none" stroke="#8a1a1a" stroke-width="2" opacity="0.22"/>
+  <rect x="49" y="28" width="96" height="88" fill="none" stroke="#1a1a4a" stroke-width="2" opacity="0.18"/>
+</svg>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Producer — eupho</title>
+  <link rel="stylesheet" href="css/main.css">
+  <style>
+    .producer-header { display: flex; gap: 16px; align-items: center; margin-bottom: 16px; }
+    .producer-avatar { width: 90px; height: 90px; border: 1px solid var(--border-dark); background: #c8c3b8; background-size: cover; background-position: center; flex-shrink: 0; }
+    .producer-info { flex: 1; }
+    .producer-name { font-size: 22px; font-weight: bold; }
+    .producer-role { font-size: 11px; color: var(--text-dim); }
+    .producer-stats { display: flex; gap: 16px; margin-top: 8px; font-size: 12px; }
+    .producer-bio { border: 1px solid var(--border-dark); background: #e8e3d7; padding: 12px; margin-bottom: 16px; }
+    .producer-links { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+    .profile-login { max-width: 320px; margin: 30px auto; padding: 16px; border: 1px solid var(--border-dark); background: #e8e3d7; }
+    .profile-login input { width: 100%; box-sizing: border-box; padding: 5px; margin-bottom: 8px; border: 1px solid var(--border-dark); background: #f2efe6; }
+    .profile-card { border: 1px solid var(--border-dark); background: #e8e3d7; padding: 14px; margin-bottom: 14px; }
+    .profile-name { font-size: 18px; font-weight: bold; color: var(--text); margin-bottom: 4px; }
+    .profile-status { font-size: 12px; color: var(--text-dim); margin-bottom: 10px; font-style: italic; }
+    .wall-form { display: flex; gap: 6px; margin-bottom: 10px; }
+    .wall-form input { flex: 1; padding: 5px; border: 1px solid var(--border-dark); background: #f2efe6; }
+    .wall-post { border-bottom: 1px solid #d8d2c6; padding: 6px 0; font-size: 12px; }
+    .wall-post time { color: var(--text-dim); font-size: 10px; }
+  </style>
+</head>
+<body>
+  <div class="site">
+    <div class="top-bar">
+      <span data-i18n="producerTop">eupho producer profile</span>
+      <div>
+        <a href="index.html" data-i18n="home">Home</a>
+        <a href="beats.html" data-i18n="allBeats">Beats</a>
+        <a href="kits.html" data-i18n="drumKits">Kits</a>
+        <a href="#" id="lang-toggle">RU</a>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="logo"><img class="logo-img" src="assets/1211b41172150adc0cf2b3ee449d9eaf.jpg" alt="eupho"></div>
+      <div class="brand">
+        <a href="index.html" class="brand-name glitch-text" data-text="eupho">eupho</a>
+        <div class="brand-tagline" data-i18n="producerTagline">producer · beats · kits · digital flesh</div>
+      </div>
+    </header>
+
+    <div class="main-layout">
+      <aside class="sidebar">
+        <h3 data-i18n="catalog">Catalog</h3>
+        <ul>
+          <li><a href="index.html" data-i18n="home">Home</a></li>
+          <li><a href="beats.html" data-i18n="beats">Beats</a></li>
+          <li><a href="kits.html" data-i18n="drumKits">Drum Kits</a></li>
+          <li><a href="game.html" data-i18n="game">Game</a></li>
+          <li><a href="visuals.html" data-i18n="visuals">Visuals</a></li>
+          <li><a href="watchers.html" data-i18n="watchers">Watchers</a></li>
+        </ul>
+        <h3 data-i18n="account">Account</h3>
+        <ul>
+          <li><a href="admin.html" data-i18n="admin">Admin Upload</a></li>
+          <li><a href="about.html" data-i18n="about">About</a></li>
+        </ul>
+      </aside>
+
+      <main class="content">
+        <div class="status-bar">
+          <span class="live" data-i18n="verified">● Verified producer</span>
+          <span data-i18n="allOriginal">all beats original</span>
+        </div>
+
+        <nav class="breadcrumb">
+          <a href="index.html" data-i18n="home">Home</a> &gt; <a href="profiles.html" data-i18n="producer">Producer</a>
+        </nav>
+
+        <div class="producer-header">
+          <div class="producer-avatar" style="background-image:url(assets/1211b41172150adc0cf2b3ee449d9eaf.jpg)"></div>
+          <div class="producer-info">
+            <div class="producer-name">eupho</div>
+            <div class="producer-role" data-i18n="producerRole">dark trap / phonk / corrupted audio</div>
+            <div class="producer-stats">
+              <span id="stat-beats">0 beats</span>
+              <span id="stat-kits">0 kits</span>
+              <span id="stat-sales">1,847 sales</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="producer-bio" data-i18n="producerBio">
+          Producer and digital artist from wonderland_ruins. Beats are inspired by Alice: Madness Returns, early 2000s web horror, and religious iconography. Every sound is original. Contact via Telegram for exclusives and custom work.
+        </div>
+
+        <div class="producer-links">
+          <a href="https://t.me/euphotg" class="btn btn-primary" target="_blank" rel="noopener">Telegram</a>
+          <a href="https://www.instagram.com/eupho_____/" class="btn" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.youtube.com/@16eupho/videos" class="btn" target="_blank" rel="noopener">YouTube</a>
+          <a href="beats.html" class="btn" data-i18n="browseBeats">Browse Beats</a>
+        </div>
+
+        <div id="auth-section" class="profile-login">
+          <div class="featured-header" data-i18n="vendorAuth">Vendor Authentication</div>
+          <input type="password" id="auth-pass" placeholder="terminal key" data-i18n-placeholder="terminalKey">
+          <button class="btn btn-primary" id="login-btn" data-i18n="unlock">Unlock</button>
+          <div class="upload-status" id="auth-status"></div>
+        </div>
+
+        <div id="profile-section" class="admin-hidden">
+          <div class="profile-card">
+            <div class="profile-name" id="p-name">eupho</div>
+            <div class="profile-status" id="p-status" contenteditable="true">Set your status...</div>
+            <button class="btn" id="save-status" data-i18n="saveStatus">Save Status</button>
+            <button class="btn" id="logout-btn" data-i18n="logout">Logout</button>
+          </div>
+
+          <div class="profile-card">
+            <div class="featured-header" data-i18n="publicWall">Public Wall</div>
+            <div class="wall-form">
+              <input type="text" id="wall-input" placeholder="Write something..." maxlength="200" data-i18n-placeholder="wallPlaceholder">
+              <button class="btn" id="wall-post-btn" data-i18n="post">Post</button>
+            </div>
+            <div id="wall-list"></div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-links">
+        <a href="index.html">Market</a>
+        <a href="beats.html">Beats</a>
+        <a href="kits.html">Kits</a>
+        <a href="about.html">About</a>
+        <a href="profiles.html">Producer</a>
+      </div>
+      <p>© 2011-2026 eupho // only original beats</p>
+    </footer>
+  </div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/guard.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/profiles.js"></script>
+  <script src="js/looking-glass.js"></script>
+  <script src="js/whispers.js"></script>
+</body>
+</html>

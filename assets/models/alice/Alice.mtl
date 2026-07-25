@@ -1,0 +1,102 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 06.02.2012 10:23:37
+
+newmtl Material97
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka RGB_Multiply_RGB_Multiply.tga
+	map_Kd RGB_Multiply_RGB_Multiply.tga
+	map_d C:\Users\Owner\Desktop\AliceMadnessReturns_Alice_Default_by_o0Crofty0o\hair_DM.tga
+	map_bump Normal_Bump_Normal_Bump.tga
+
+newmtl Material__179
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Owner\Desktop\Alice\AliceW_Cloth_DM.png
+	map_Kd C:\Users\Owner\Desktop\Alice\AliceW_Cloth_DM.png
+
+newmtl Material__180
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Owner\Desktop\Alice\AliceW_Cloth_DM.png
+	map_Kd C:\Users\Owner\Desktop\Alice\AliceW_Cloth_DM.png
+
+newmtl Material__178
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Owner\Desktop\Alice\AliceW_Skirt_DM.png
+	map_Kd C:\Users\Owner\Desktop\Alice\AliceW_Skirt_DM.png
+
+newmtl Material__175
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Owner\Desktop\Alice\AliceW_Skin_DM.png
+	map_Kd C:\Users\Owner\Desktop\Alice\AliceW_Skin_DM.png
+
+newmtl Material__176
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Owner\Desktop\Alice\AliceW_Cloth_DM.png
+	map_Kd C:\Users\Owner\Desktop\Alice\AliceW_Cloth_DM.png
+
+newmtl Material__177
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Owner\Desktop\Alice\AliceW_Eye_DM.png
+	map_Kd C:\Users\Owner\Desktop\Alice\AliceW_Eye_DM.png

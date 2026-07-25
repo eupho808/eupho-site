@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entry Verification — eupho</title>
+  <link rel="stylesheet" href="css/main.css">
+  <style>
+    .gate-container {
+      max-width: 420px;
+      margin: 50px auto;
+      padding: 16px;
+      border: 1px solid var(--border-dark);
+      background: #e8e3d7;
+      text-align: center;
+    }
+    .gate-canvas {
+      width: 100%;
+      height: 220px;
+      border: 1px solid var(--border-dark);
+      background: #111;
+      display: block;
+      margin-bottom: 14px;
+      background-size: cover;
+      background-position: center;
+      image-rendering: pixelated;
+    }
+    .gate-prompt {
+      font-size: 12px;
+      color: var(--text-dim);
+      margin-bottom: 10px;
+    }
+    .gate-code {
+      font-family: "Courier New", monospace;
+      font-size: 18px;
+      letter-spacing: 4px;
+      color: var(--blood);
+      margin-bottom: 12px;
+      opacity: 0.9;
+    }
+    .gate-input {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 6px;
+      border: 1px solid var(--border-dark);
+      background: #f2efe6;
+      font-family: "Courier New", monospace;
+      font-size: 16px;
+      text-align: center;
+      letter-spacing: 4px;
+      margin-bottom: 10px;
+    }
+    .gate-error {
+      color: var(--blood);
+      font-size: 11px;
+      min-height: 16px;
+      margin-bottom: 6px;
+    }
+    .gate-hint {
+      font-size: 10px;
+      color: var(--text-dim);
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="site">
+    <div class="top-bar">
+      <span>Welcome, Guest. Identity verification required.</span>
+    </div>
+
+    <header class="header">
+      <div class="logo"><img class="logo-img" src="assets/1211b41172150adc0cf2b3ee449d9eaf.jpg" alt="eupho"></div>
+      <div class="brand">
+        <a href="index.html" class="brand-name" data-text="eupho">eupho</a>
+        <div class="brand-tagline">entry verification · do not blink</div>
+      </div>
+    </header>
+
+    <main class="content" style="min-height: calc(100vh - 160px);">
+      <div class="gate-container">
+        <div class="featured-header">Prove You Are Real</div>
+        <canvas id="attractor" class="gate-canvas" width="400" height="220"></canvas>
+        <div class="gate-prompt">The pattern remembers its name. Type the six characters hidden inside it.</div>
+        <div class="gate-code" id="gate-code">······</div>
+        <input type="text" id="gate-input" class="gate-input" maxlength="6" autocomplete="off" placeholder="_ _ _ _ _ _">
+        <div class="gate-error" id="gate-error"></div>
+        <button class="btn btn-primary" id="gate-submit">Enter Market</button>
+        <div class="gate-hint">The code shifts if you wait too long. The looking-glass is impatient.</div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>© 2011-2026 eupho // entry verification active</p>
+    </footer>
+  </div>
+
+  <script>
+    const gateArt = [
+      'assets/0fc087e240a9d044251fbcd6dcf11fbd.jpg',
+      'assets/3f8bf865a5c12bb1eb94d1f8d3c25004.jpg',
+      'assets/560247b4cbdce7a457129b6bac3c102f.jpg',
+      'assets/8b5a26f959a56123d3cdfbf4d3374f59.jpg',
+      'assets/99e0dbf969f0ca47ea2df78c9bad46f9.jpg',
+      'assets/396d4ecb7b7865d0ccbc03563c5c5f10.jpg'
+    ];
+    document.getElementById('attractor').style.backgroundImage = 'url(' + gateArt[Math.floor(Math.random() * gateArt.length)] + ')';
+  </script>
+  <script src="js/gate.js"></script>
+</body>
+</html>
